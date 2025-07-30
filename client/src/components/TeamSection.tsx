@@ -1,46 +1,53 @@
 export default function TeamSection() {
   const teamMembers = [
     {
-      name: "Dr. Sarah Chen",
-      role: "Lead Environmental Scientist",
+      name: "Ashish Raj",
+      role: "Development Professional",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-      description: "Specializing in ecosystem monitoring and AI-driven conservation strategies.",
-      hoverInfo: "Environmental Science PhD with 10+ years in conservation technology"
+      description: "26+ years experience in forestry, climate change, and community-based natural resource management. MBA in Forestry from Indian Institute of Forest Management.",
+      hoverInfo: "Expert in nature-based solutions and participatory frameworks for ecosystem services"
     },
     {
-      name: "Marcus Rodriguez",
-      role: "Chief Technology Officer",
+      name: "Dr. Manoj Pattanaik",
+      role: "Community Development Specialist",
       image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-      description: "Expert in drone systems, IoT networks, and remote sensing technologies.",
-      hoverInfo: "Former SpaceX engineer bringing aerospace tech to conservation"
+      description: "35+ years working with civil society organizations in community forestry, natural resource management, and climate change adaptation. PhD in Social Work.",
+      hoverInfo: "JICA project specialist in forestry sector development and community enterprises"
     },
     {
-      name: "Dr. Aisha Patel",
-      role: "Wildlife Conservation Director",
+      name: "Sandeep Khanwalkar",
+      role: "Natural Resource Management Expert",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b302?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-      description: "Leading wildlife protection initiatives using camera traps and AI tracking.",
-      hoverInfo: "Wildlife biologist with expertise in anti-poaching technology"
+      description: "25+ years expertise in watershed planning, climate change, and nature-based solutions. Specializes in water conservation and ecological restoration.",
+      hoverInfo: "Leading innovative NbS for water treatment and traditional farming systems"
     },
     {
-      name: "James Thompson",
-      role: "Data Science Lead",
+      name: "Kiran KP",
+      role: "Technology & Community Integration Lead",
+      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      description: "13 years bridging advanced technology and grassroots action. Engineering and forestry management background with major community-driven projects.",
+      hoverInfo: "Led watershed reports for 96,000 hectares across 220 villages in Gujarat"
+    },
+    {
+      name: "Dr. Gaini Sailu",
+      role: "Biodiversity Conservation Expert",
+      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      description: "18+ years in forestry, wildlife management, and biodiversity conservation. PhD in Environmental Sciences. UNDP India Biodiversity Award recipient.",
+      hoverInfo: "Leading decision support systems for forest assessment with USAID, UNDP, World Bank"
+    },
+    {
+      name: "Sourav Pahari",
+      role: "Digital Platform Specialist",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-      description: "Developing predictive models for forest health and species behavior.",
-      hoverInfo: "Machine learning expert with focus on environmental data analysis"
+      description: "17+ years in natural resource management and biodiversity. Designer of digital platforms like TIGRAM and NTMS for timber traceability.",
+      hoverInfo: "Expert in agroforestry, climate resilience, and landscape monitoring systems"
     },
     {
-      name: "Elena Kowalski",
-      role: "Field Operations Manager",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-      description: "Ensuring seamless deployment and maintenance of monitoring systems.",
-      hoverInfo: "Coordinates field deployments and equipment maintenance globally"
-    },
-    {
-      name: "David Kim",
-      role: "Sustainability Strategist",
+      name: "Manish Pant",
+      role: "Communications & Outreach Specialist",
       image: "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-      description: "Developing long-term conservation strategies and policy frameworks.",
-      hoverInfo: "Environmental policy expert and sustainability advocate"
+      description: "15+ years spanning journalism, public relations, and nonprofit advocacy. Led regional communication strategies for Forest-PLUS 3.0 program.",
+      hoverInfo: "Johns Hopkins-trained leader with expertise in mass communications and digital marketing"
     }
   ];
 
