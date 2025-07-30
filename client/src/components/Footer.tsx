@@ -9,8 +9,8 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                <i className="fas fa-leaf text-forest text-sm"></i>
+              <div className="w-8 h-8 flex items-center justify-center">
+                <i className="fas fa-leaf text-forest text-xl"></i>
               </div>
               <span className="text-xl font-bold">MYRISTIKA</span>
             </div>
