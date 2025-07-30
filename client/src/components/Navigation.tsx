@@ -29,14 +29,10 @@ export default function Navigation() {
   return (
     <nav 
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/90 backdrop-blur-xl shadow-lg' : 'bg-white/15 backdrop-blur-xl'
+        isScrolled ? 'navbar-blur shadow-lg' : 'navbar-blur-dark'
       } ${
         isVisible ? 'translate-y-0' : '-translate-y-full'
       }`}
-      style={{
-        backdropFilter: 'blur(16px)',
-        WebkitBackdropFilter: 'blur(16px)'
-      }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
