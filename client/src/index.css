@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(60, 9%, 98%);
+  --foreground: hsl(27, 67%, 50%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(140, 100%, 13%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(200, 95%, 60%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  
+  /* Custom Myristika colors */
+  --forest: hsl(140, 100%, 13%);
+  --earth: hsl(27, 67%, 50%);
+  --sky: hsl(200, 95%, 60%);
+  --nature-light: hsl(140, 48%, 91%);
+  --nature-dark: hsl(140, 90%, 5%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(140, 100%, 13%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(200, 95%, 60%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .scroll-reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+  }
+  
+  .scroll-reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .video-overlay {
+    background: linear-gradient(135deg, rgba(27, 67, 50, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%);
+  }
+  
+  .navbar-blur {
+    backdrop-filter: blur(10px);
+    background: rgba(250, 250, 250, 0.95);
+  }
+  
+  .team-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(27, 67, 50, 0.15);
+  }
+  
+  .tech-icon {
+    background: linear-gradient(135deg, var(--forest) 0%, var(--sky) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .hero-text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+
+}
+
+@layer utilities {
+  .text-forest {
+    color: hsl(140, 100%, 13%);
+  }
+  
+  .text-earth {
+    color: hsl(27, 67%, 50%);
+  }
+  
+  .text-sky {
+    color: hsl(200, 95%, 60%);
+  }
+  
+  .bg-forest {
+    background-color: hsl(140, 100%, 13%);
+  }
+  
+  .bg-earth {
+    background-color: hsl(27, 67%, 50%);
+  }
+  
+  .bg-sky {
+    background-color: hsl(200, 95%, 60%);
+  }
+  
+  .bg-nature-light {
+    background-color: hsl(140, 48%, 91%);
+  }
+  
+  .bg-nature-dark {
+    background-color: hsl(140, 90%, 5%);
+  }
+  
+  .border-forest {
+    border-color: hsl(140, 100%, 13%);
+  }
+  
+  .border-sky {
+    border-color: hsl(200, 95%, 60%);
+  }
+  
+  .hover\:bg-blue-500:hover {
+    background-color: hsl(207, 90%, 54%);
+  }
+  
+  .focus\:border-sky:focus {
+    border-color: hsl(200, 95%, 60%);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
