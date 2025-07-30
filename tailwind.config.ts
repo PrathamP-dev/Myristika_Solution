@@ -51,6 +51,12 @@ export default {
           "4": "var(--chart-4)",
           "5": "var(--chart-5)",
         },
+        // Custom Myristika colors
+        forest: "hsl(140, 100%, 13%)",
+        earth: "hsl(27, 67%, 50%)",
+        sky: "hsl(200, 95%, 60%)",
+        "nature-light": "hsl(140, 48%, 91%)",
+        "nature-dark": "hsl(140, 90%, 5%)",
         sidebar: {
           DEFAULT: "var(--sidebar-background)",
           foreground: "var(--sidebar-foreground)",
