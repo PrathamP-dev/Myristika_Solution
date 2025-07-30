@@ -9,8 +9,8 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-forest to-sky rounded-lg flex items-center justify-center">
-                <i className="fas fa-leaf text-white text-sm"></i>
+              <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                <i className="fas fa-leaf text-forest text-sm"></i>
               </div>
               <span className="text-xl font-bold">MYRISTIKA</span>
             </div>
@@ -60,10 +60,12 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Technologies</h4>
             <ul className="space-y-2 text-sm">
-              <li><span className="text-gray-300">AI & Machine Learning</span></li>
-              <li><span className="text-gray-300">Drone Systems</span></li>
-              <li><span className="text-gray-300">IoT Sensors</span></li>
-              <li><span className="text-gray-300">Remote Sensing</span></li>
+              <li><span className="text-gray-300">Van System</span></li>
+              <li><span className="text-gray-300">DSS-Ecorestoration</span></li>
+              <li><span className="text-gray-300">DSS-Agroforestry</span></li>
+              <li><span className="text-gray-300">NTFP-IMS</span></li>
+              <li><span className="text-gray-300">TIGRAM</span></li>
+              <li><span className="text-gray-300">AI & ML Solutions</span></li>
             </ul>
           </div>
           

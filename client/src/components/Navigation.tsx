@@ -37,8 +37,8 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-forest to-sky rounded-lg flex items-center justify-center">
-              <i className="fas fa-leaf text-white text-sm"></i>
+            <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+              <i className="fas fa-leaf text-forest text-sm"></i>
             </div>
             <span 
               className={`text-xl font-bold transition-colors ${
