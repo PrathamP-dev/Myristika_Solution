@@ -53,7 +53,8 @@ export default {
         },
         // Custom Myristika colors
         forest: "hsl(140, 100%, 13%)",
-        earth: "hsl(27, 67%, 50%)",
+        earth: "hsl(220, 15%, 25%)",
+        platinum: "hsl(220, 15%, 65%)",
         sky: "hsl(200, 95%, 60%)",
         "nature-light": "hsl(140, 48%, 91%)",
         "nature-dark": "hsl(140, 90%, 5%)",

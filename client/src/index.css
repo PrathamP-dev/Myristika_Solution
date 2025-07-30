@@ -26,7 +26,8 @@
   
   /* Custom Myristika colors */
   --forest: hsl(140, 100%, 13%);
-  --earth: hsl(27, 67%, 50%);
+  --earth: hsl(220, 15%, 25%);
+  --platinum: hsl(220, 15%, 65%);
   --sky: hsl(200, 95%, 60%);
   --nature-light: hsl(140, 48%, 91%);
   --nature-dark: hsl(140, 90%, 5%);
@@ -115,7 +116,11 @@
   }
   
   .text-earth {
-    color: hsl(27, 67%, 50%);
+    color: hsl(220, 15%, 25%);
+  }
+  
+  .text-platinum {
+    color: hsl(220, 15%, 65%);
   }
   
   .text-sky {
@@ -127,7 +132,11 @@
   }
   
   .bg-earth {
-    background-color: hsl(27, 67%, 50%);
+    background-color: hsl(220, 15%, 25%);
+  }
+  
+  .bg-platinum {
+    background-color: hsl(220, 15%, 65%);
   }
   
   .bg-sky {

@@ -58,7 +58,7 @@ export default function AboutSection() {
           </div>
           
           <div className="text-center scroll-reveal">
-            <div className="w-16 h-16 bg-gradient-to-br from-sky to-earth rounded-xl flex items-center justify-center mb-4 mx-auto">
+            <div className="w-16 h-16 bg-gradient-to-br from-sky to-platinum rounded-xl flex items-center justify-center mb-4 mx-auto">
               <i className="fas fa-handshake text-white text-2xl"></i>
             </div>
             <h3 className="text-xl font-bold text-forest mb-2">Community-Centered</h3>
@@ -66,7 +66,7 @@ export default function AboutSection() {
           </div>
           
           <div className="text-center scroll-reveal">
-            <div className="w-16 h-16 bg-gradient-to-br from-earth to-forest rounded-xl flex items-center justify-center mb-4 mx-auto">
+            <div className="w-16 h-16 bg-gradient-to-br from-platinum to-forest rounded-xl flex items-center justify-center mb-4 mx-auto">
               <i className="fas fa-leaf text-white text-2xl"></i>
             </div>
             <h3 className="text-xl font-bold text-forest mb-2">Proven Legacy</h3>

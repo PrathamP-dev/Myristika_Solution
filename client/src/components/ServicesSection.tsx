@@ -67,7 +67,7 @@ export default function ServicesSection() {
             
             {/* DSS-Ecorestoration */}
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 scroll-reveal">
-              <div className="w-16 h-16 bg-gradient-to-br from-sky to-earth rounded-xl flex items-center justify-center mb-6 mx-auto">
+              <div className="w-16 h-16 bg-gradient-to-br from-sky to-platinum rounded-xl flex items-center justify-center mb-6 mx-auto">
                 <i className="fas fa-seedling text-white text-2xl"></i>
               </div>
               <h4 className="text-xl font-bold text-forest mb-4 text-center">DSS-Ecorestoration</h4>
@@ -78,7 +78,7 @@ export default function ServicesSection() {
             
             {/* DSS-Agroforestry */}
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 scroll-reveal">
-              <div className="w-16 h-16 bg-gradient-to-br from-earth to-forest rounded-xl flex items-center justify-center mb-6 mx-auto">
+              <div className="w-16 h-16 bg-gradient-to-br from-platinum to-forest rounded-xl flex items-center justify-center mb-6 mx-auto">
                 <i className="fas fa-leaf text-white text-2xl"></i>
               </div>
               <h4 className="text-xl font-bold text-forest mb-4 text-center">DSS-Agroforestry</h4>
@@ -100,7 +100,7 @@ export default function ServicesSection() {
             
             {/* TIGRAM */}
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 scroll-reveal">
-              <div className="w-16 h-16 bg-gradient-to-br from-forest to-earth rounded-xl flex items-center justify-center mb-6 mx-auto">
+              <div className="w-16 h-16 bg-gradient-to-br from-forest to-platinum rounded-xl flex items-center justify-center mb-6 mx-auto">
                 <i className="fas fa-qrcode text-white text-2xl"></i>
               </div>
               <h4 className="text-xl font-bold text-forest mb-4 text-center">TIGRAM</h4>
@@ -111,7 +111,7 @@ export default function ServicesSection() {
             
             {/* Future Tech */}
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 scroll-reveal">
-              <div className="w-16 h-16 bg-gradient-to-br from-earth to-sky rounded-xl flex items-center justify-center mb-6 mx-auto">
+              <div className="w-16 h-16 bg-gradient-to-br from-platinum to-sky rounded-xl flex items-center justify-center mb-6 mx-auto">
                 <i className="fas fa-brain text-white text-2xl"></i>
               </div>
               <h4 className="text-xl font-bold text-forest mb-4 text-center">AI & ML Solutions</h4>
