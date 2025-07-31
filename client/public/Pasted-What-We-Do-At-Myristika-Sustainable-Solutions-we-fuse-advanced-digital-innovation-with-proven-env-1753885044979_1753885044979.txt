@@ -1,0 +1,73 @@
+What We Do
+At Myristika Sustainable Solutions, we fuse advanced digital innovation with proven
+environmental stewardship to address today’s most urgent natural resource and climate
+challenges. Drawing upon our deep roots in the pioneering Forest-PLUS programs, we are
+committed to catalyzing a transformation in how forest landscapes are managed, restored,
+and governed—ensuring resilience for both ecosystems and the communities that depend
+on them.
+Building on a Proven Legacy
+Before evolving into Myristika, our leadership and technical teams drove the landmark
+USAID-supported Forest-PLUS initiatives, shaping the landscape of sustainable, data-driven
+forest management across India and beyond. Through Forest-PLUS 2.0 and 3.0, we:
+ Expanded the reach of sustainable forestry from a handful of divisions to over 185
+forest divisions across 14 Indian states—impacting over 9 million hectares of vital
+landscapes.
+ Trained more than 7,500 individuals—including government foresters, community
+members, and other frontline personnel—in modern digital forestry and
+agroforestry practices.
+ Developed, piloted, and institutionalized technological and methodological
+innovations in State Forest Departments and key training institutions.
+ Implemented ecosystem-based management plans that enhanced biodiversity and
+ecosystem services while strengthening community livelihoods and establishing
+equitable forest-based value chains.
+Innovative Technology Suite for Natural Resource Management
+Our core strength is the development and scaling of user-centric, policy-aligned digital
+platforms that operationalize participatory, science-based, and climate-smart ecosystem
+management. Our technology offerings include:
+ Van System: A comprehensive, field-to-desk platform for real-time forest data
+collection and analytics—supporting inventory, census, ecological monitoring, and
+geospatial mapping. It streamlines reporting, compliance, and incident response
+(including human-wildlife conflict), and optimizes field operations through a mobile
+and web interface integrated with national guidelines.
+ DSS-Ecorestoration: An open-source Web-GIS platform designed to address complex
+restoration and ecosystem management challenges—supporting site planning,
+species selection, fire management, and nursery tracking with robust spatial
+analytics and multi-criteria decision-making capabilities.
+ DSS-Agroforestry: A decision support system that empowers stakeholders across the
+agroforestry spectrum by harnessing multi-layered geospatial intelligence for robust,
+
+climate-resilient species selection, supply chain optimization, and policy
+targeting—making agroforestry more viable, scalable, and sustainable.
+ NTFP-IMS: A next-generation blockchain-based system ensuring trust, traceability,
+and transparency across non-timber forest produce (NTFP) and agricultural value
+chains. It provides seamless digital interfaces and marketplace integration, linking
+producers, agencies, regulators, and buyers for both industrial procurement and
+retail activation.
+ TIGRAM: A geo-enabled digital chain-of-custody solution for timber, streamlining e-
+permitting, provenance verification, QR-based traceability and full timber lifecycle
+management—bringing transparency and robust compliance to the timber value
+chain.
+Shaping the Future: Our Vision for Impact
+Building on the technical excellence and partnerships formed under the Forest-PLUS legacy,
+Myristika is dedicated to driving broad-based, climate-positive impact through innovation
+and collaboration. Our primary objectives moving forward are:
+ Promoting ecosystem services-based approaches to landscape management and
+restoration.
+ Accelerating national and global climate, biodiversity, and sustainability goals.
+ Developing AI, machine learning, and big data-enabled solutions for ecological
+monitoring, analysis, and decision support.
+ Designing and deploying cutting-edge GIS and remote sensing systems for real-time
+landscape intelligence.
+ Facilitating tech-enabled, community-driven governance architectures that
+champion gender equity, Indigenous rights, and inclusive participation.
+ Supporting robust capacity-building and the development of innovative
+communication tools.
+ Strengthening transparency, good governance, and cross-sectoral partnerships for
+natural resource management.
+ Mainstreaming technology-driven solutions to empower vulnerable communities
+with sustainable, livelihood-enhancing opportunities.
+Myristika offers a compelling opportunity for governments, donors, NGOs, academia,
+foundations, and private partners to invest in validated, scalable solutions that address
+pressing environmental and development challenges. By combining field-tested innovation,
+institutional experience, and an unwavering focus on inclusivity and resilience, we are
+charting new pathways towards an environmentally secure and equitable future.

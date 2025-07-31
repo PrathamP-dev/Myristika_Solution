@@ -1,0 +1,85 @@
+Design a modern, minimalist, and immersive website for Myristika Solution, a platform focused on applying technology in forestry, environmental conservation, and wildlife protection. The site should blend the raw beauty of nature with sleek digital aesthetics, offering an engaging, professional, and eco-conscious experience.
+
+✅ Website Title & Hero Section
+Site Title:
+MYRISTIKA SOLUTION
+Empowering Forestry & Wildlife with Innovation
+
+Hero Section Features:
+
+Full-screen looping video background of lush forests (provided), with a subtle dark overlay for readability
+
+Static fallback image (forest road) for slow connections
+
+Overlay Text:
+
+csharp
+Copy
+Edit
+MYRISTIKA SOLUTION  
+Innovating Forests & Wildlife with Technology  
+Empowering environmental action through smart tools and AI
+Call-to-action (CTA): “Learn More” – scrolls to "Who We Are" section
+
+Social media icons (Twitter, LinkedIn, GitHub, Instagram) with hover glow effects
+
+📄 Website Sections
+Who We Are – Mission, vision, and values of Myristika Solution
+
+What We Do – Technologies used (AI, drones, IoT sensors, remote sensing, etc.)
+
+Our Team – Team showcase with images, roles, and interactive hover cards
+
+Contact Us – Minimalistic form, map, and contact details
+
+✨ Visual Style & Elements
+Typography: Bold, uppercase headers with smooth sans-serif body fonts
+
+Layout: Minimalist and whitespace-rich, clean grids
+
+Color Palette:
+
+Forest Green
+
+Deep Earth Brown
+
+Sky Blue Accents
+
+Off-White Background
+
+UI/UX Features:
+
+Scroll-triggered animations (fade-ins, parallax reveals)
+
+Section transitions with Locomotive Scroll or smooth scroll effects
+
+Interactive hover effects on buttons, cards, team profiles
+
+Sticky navbar with subtle animations
+
+🧩 Optional Additional Sections (Scalable)
+(Can be added later as the project grows)
+
+Tech in Forests – Smart monitoring using AI & sensors
+
+Wildlife Monitoring – Camera traps, AI species tracking, anti-poaching tools
+
+Projects – Grid/card-style project highlights with animated hover interactions
+
+Blog/Updates – Tech news or research articles related to conservation
+
+🛠️ Tech Stack Recommendations
+Tailwind CSS or SCSS for styling
+
+GSAP or AOS for animations
+
+Locomotive Scroll for fluid, parallax scrolling (optional)
+
+Mobile-first responsive design
+
+Accessibility-compliant (semantic HTML, alt tags, color contrast, keyboard nav)
+
+🎯 Overall Design Vibe
+Combine the center-aligned structure and bold layout of the Alison sample site with the immersive beauty of the forest drone footage. Keep the user interface minimal and smooth, but use motion and interactivity to highlight innovation and environmental synergy.
+
+It should feel high-tech yet grounded in nature, evoking trust, innovation, and environmental responsibility.

@@ -3,56 +3,56 @@ export default function TeamSection() {
     {
       name: "Ashish Raj",
       role: "Development Professional",
-      image: "/attached_assets/Ashish Raj_1753968367793.png",
+      image: "/Ashish Raj_1753968367793.png",
       description: "26+ years experience in forestry, climate change, and community-based natural resource management. MBA in Forestry from Indian Institute of Forest Management.",
       hoverInfo: "Expert in nature-based solutions and participatory frameworks for ecosystem services"
     },
     {
       name: "Dr. Manoj Pattanaik",
       role: "Community Development Specialist",
-      image: "/attached_assets/Manoj Pattanaik_1753968367790.png",
+      image: "/Manoj Pattanaik_1753968367790.png",
       description: "35+ years working with civil society organizations in community forestry, natural resource management, and climate change adaptation. PhD in Social Work.",
       hoverInfo: "JICA project specialist in forestry sector development and community enterprises"
     },
     {
       name: "Sandeep Khanwalkar",
       role: "Natural Resource Management Expert",
-      image: "/attached_assets/Sandeep_1753968120412.png",
+      image: "/Sandeep_1753968120412.png",
       description: "25+ years expertise in watershed planning, climate change, and nature-based solutions. Specializes in water conservation and ecological restoration.",
       hoverInfo: "Leading innovative NbS for water treatment and traditional farming systems"
     },
     {
       name: "Kiran KP",
       role: "Technology & Community Integration Lead",
-      image: "/attached_assets/Kiran KP_1753968367792.png",
+      image: "/Kiran KP_1753968367792.png",
       description: "13 years bridging advanced technology and grassroots action. Engineering and forestry management background with major community-driven projects.",
       hoverInfo: "Led watershed reports for 96,000 hectares across 220 villages in Gujarat"
     },
     {
       name: "Dr. Gaini Sailu",
       role: "Biodiversity Conservation Expert",
-      image: "/attached_assets/Sailu_1753968367789.png",
+      image: "/Sailu_1753968367789.png",
       description: "18+ years in forestry, wildlife management, and biodiversity conservation. PhD in Environmental Sciences. UNDP India Biodiversity Award recipient.",
       hoverInfo: "Leading decision support systems for forest assessment with USAID, UNDP, World Bank"
     },
     {
       name: "Sourav Pahari",
       role: "Digital Platform Specialist",
-      image: "/attached_assets/Sourav_1753968120410.png",
+      image: "/Sourav_1753968120410.png",
       description: "17+ years in natural resource management and biodiversity. Designer of digital platforms like TIGRAM and NTMS for timber traceability.",
       hoverInfo: "Expert in agroforestry, climate resilience, and landscape monitoring systems"
     },
     {
       name: "Manish Pant",
       role: "Communications & Outreach Specialist",
-      image: "/attached_assets/Manish Pant_1753968367791.png",
+      image: "/Manish Pant_1753968367791.png",
       description: "15+ years spanning journalism, public relations, and nonprofit advocacy. Led regional communication strategies for Forest-PLUS 3.0 program.",
       hoverInfo: "Johns Hopkins-trained leader with expertise in mass communications and digital marketing"
     },
     {
       name: "Prashant Gamaliel",
       role: "Finance & Operations Specialist",
-      image: "/attached_assets/Prashant Gamaliel_1753968367791.png",
+      image: "/Prashant Gamaliel_1753968367791.png",
       description: "20+ years across corporate and international development sectors with organizations like Tetra Tech ARD, FHI360, and World Vision. MBA in Operations Management.",
       hoverInfo: "Expert in financial systems design, regulatory compliance, and multi-country project oversight"
     }

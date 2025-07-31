@@ -23,7 +23,7 @@ export default function HeroSection() {
             minHeight: '100%'
           }}
         >
-          <source src="/attached_assets/Untitled video_1753804119488.mp4" type="video/mp4" />
+          <source src="/Untitled video_1753804119488.mp4" type="video/mp4" />
           {/* Fallback image */}
           <img 
             src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080" 
