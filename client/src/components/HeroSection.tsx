@@ -1,36 +1,47 @@
 import { useSmoothScroll } from "../hooks/use-smooth-scroll";
+import { useLazyVideo } from "../hooks/use-lazy-video";
 
 export default function HeroSection() {
   const { scrollToSection } = useSmoothScroll();
+  const { videoRef, isLoading, canPlay } = useLazyVideo();
 
   return (
     <section id="hero" className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
+        {/* Poster image shows immediately */}
+        <img 
+          src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080" 
+          alt="Dense forest with filtered sunlight" 
+          className={`w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-0' : 'opacity-100'}`}
+          style={{ filter: 'brightness(0.7)' }}
+        />
+        
+        {/* Video loads in background and fades in when ready */}
         <video 
+          ref={videoRef}
           autoPlay 
           muted 
           loop 
           playsInline
-          preload="metadata"
-          className="w-full h-full object-cover"
+          preload="none"
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-100' : 'opacity-0'}`}
           style={{ 
             filter: 'brightness(0.7)',
-            transform: 'scale(1.1)',
-            backfaceVisibility: 'hidden',
-            perspective: '1000px',
-            minWidth: '100%',
-            minHeight: '100%'
+            transform: 'scale(1.05)',
+            backfaceVisibility: 'hidden'
           }}
         >
-          <source src="/Untitled video_1753804119488.mp4" type="video/mp4" />
-          {/* Fallback image */}
-          <img 
-            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080" 
-            alt="Dense forest with filtered sunlight" 
-            className="w-full h-full object-cover"
-          />
+          <source src="/WhatsApp Video 2025-07-29 at 20.11.10_ea18111b_1753803132576.mp4" type="video/mp4" />
         </video>
+        
+        {/* Loading indicator */}
+        {isLoading && (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="animate-pulse text-white/70 text-sm">Loading...</div>
+          </div>
+        )}
+        
         <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/70"></div>
       </div>
       
