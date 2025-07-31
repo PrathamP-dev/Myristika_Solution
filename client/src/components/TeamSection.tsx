@@ -3,14 +3,14 @@ export default function TeamSection() {
     {
       name: "Ashish Raj",
       role: "Development Professional",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      image: "/attached_assets/Ashish Raj_1753968367793.png",
       description: "26+ years experience in forestry, climate change, and community-based natural resource management. MBA in Forestry from Indian Institute of Forest Management.",
       hoverInfo: "Expert in nature-based solutions and participatory frameworks for ecosystem services"
     },
     {
       name: "Dr. Manoj Pattanaik",
       role: "Community Development Specialist",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      image: "/attached_assets/Manoj Pattanaik_1753968367790.png",
       description: "35+ years working with civil society organizations in community forestry, natural resource management, and climate change adaptation. PhD in Social Work.",
       hoverInfo: "JICA project specialist in forestry sector development and community enterprises"
     },
@@ -24,14 +24,14 @@ export default function TeamSection() {
     {
       name: "Kiran KP",
       role: "Technology & Community Integration Lead",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      image: "/attached_assets/Kiran KP_1753968367792.png",
       description: "13 years bridging advanced technology and grassroots action. Engineering and forestry management background with major community-driven projects.",
       hoverInfo: "Led watershed reports for 96,000 hectares across 220 villages in Gujarat"
     },
     {
       name: "Dr. Gaini Sailu",
       role: "Biodiversity Conservation Expert",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      image: "/attached_assets/Sailu_1753968367789.png",
       description: "18+ years in forestry, wildlife management, and biodiversity conservation. PhD in Environmental Sciences. UNDP India Biodiversity Award recipient.",
       hoverInfo: "Leading decision support systems for forest assessment with USAID, UNDP, World Bank"
     },
@@ -45,14 +45,14 @@ export default function TeamSection() {
     {
       name: "Manish Pant",
       role: "Communications & Outreach Specialist",
-      image: "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      image: "/attached_assets/Manish Pant_1753968367791.png",
       description: "15+ years spanning journalism, public relations, and nonprofit advocacy. Led regional communication strategies for Forest-PLUS 3.0 program.",
       hoverInfo: "Johns Hopkins-trained leader with expertise in mass communications and digital marketing"
     },
     {
       name: "Prashant Gamaliel",
       role: "Finance & Operations Specialist",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      image: "/attached_assets/Prashant Gamaliel_1753968367791.png",
       description: "20+ years across corporate and international development sectors with organizations like Tetra Tech ARD, FHI360, and World Vision. MBA in Operations Management.",
       hoverInfo: "Expert in financial systems design, regulatory compliance, and multi-country project oversight"
     }
