@@ -48,6 +48,13 @@ export default function TeamSection() {
       image: "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
       description: "15+ years spanning journalism, public relations, and nonprofit advocacy. Led regional communication strategies for Forest-PLUS 3.0 program.",
       hoverInfo: "Johns Hopkins-trained leader with expertise in mass communications and digital marketing"
+    },
+    {
+      name: "Prashant Gamaliel",
+      role: "Finance & Operations Specialist",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      description: "20+ years across corporate and international development sectors with organizations like Tetra Tech ARD, FHI360, and World Vision. MBA in Operations Management.",
+      hoverInfo: "Expert in financial systems design, regulatory compliance, and multi-country project oversight"
     }
   ];
 

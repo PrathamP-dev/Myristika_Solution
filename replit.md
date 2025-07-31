@@ -8,8 +8,10 @@ Myristika Solution is a modern full-stack web application focused on environment
 
 Preferred communication style: Simple, everyday language.
 
-## Recent Changes (January 30, 2025)
+## Recent Changes (January 31, 2025)
 
+- **Team Section Updated**: Added all actual Myristika team members with comprehensive professional backgrounds including Ashish Raj, Dr. Manoj Pattanaik, Sandeep Khanwalkar, Kiran KP, Dr. Gaini Sailu, Sourav Pahari, Manish Pant, and Prashant Gamaliel
+- **Navigation Enhancement**: Implemented consistent glass blur effect throughout entire website using dedicated CSS classes for uniform appearance
 - **Migration Completed**: Successfully migrated from Replit Agent to Replit environment
 - **Text Visibility Fixed**: Resolved white text visibility issues in "Shaping the Future" section
 - **Premium Icon Styling**: Updated all icon gradients from orangish earth tones to sophisticated platinum colors for a more premium look
