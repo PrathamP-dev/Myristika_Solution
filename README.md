@@ -60,7 +60,7 @@ This website was developed not as a personal project, but as a **core digital as
 - UI/UX design with modern frontend practices
 - Infrastructure setup and deployment
 - Responsive design across devices
-- Clean, maintainable codebase using scalable tech
+- Clean, maintainable codebase using scalable tech.
 
 ---
 
