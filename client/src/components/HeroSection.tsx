@@ -51,7 +51,7 @@ export default function HeroSection() {
           className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black mb-6 animate-fade-in-up tracking-tight hero-text-shadow text-center leading-tight"
           style={{ fontFamily: 'Lexend Deca, sans-serif' }}
         >
-          MYRISTIKA <span className="text-sky block sm:inline">SUSTAINABLE SOLUTION</span>
+          MYRISTIKA <span className="text-sky block sm:inline">SUSTAINABLE SOLUTIONS</span>
         </h1>
         <p 
           className="text-lg sm:text-xl md:text-2xl mb-4 animate-fade-in-up font-light tracking-wide hero-text-shadow text-center px-2" 
