@@ -15,6 +15,7 @@ Preferred communication style: Simple, everyday language.
   - **Who We Are**: Enhanced mission statement emphasizing natural resources beyond forests, updated journey narrative with team's diverse sector experience
   - **What We Do**: Complete rewrite focusing on proven legacy, core expertise areas (Strategic Policy, Data-Driven Solutions, Community-Centric Engagement, Biodiversity Conservation, Climate Resilience, Strategic Communications), and comprehensive technology suite
   - **Our Team**: Updated all team member profiles with detailed professional backgrounds and extensive experience descriptions
+- **Text Justification**: Applied text justification to all content sections for improved readability and professional appearance
 - **Team Section Enhanced**: All team members now have comprehensive professional backgrounds including Ashish Raj, Dr. Manoj Pattanaik, Sandeep Khanwalkar, Kiran KP, Dr. Gaini Sailu, Sourav Pahari, Manish Pant, and Prashant Gamaliel
 - **Premium Icon Styling**: Updated all icon gradients from orangish earth tones to sophisticated platinum colors for a more premium look
 - **Logo Redesign**: Changed logo from gradient background to simple white background with dark green leaf icon for minimalistic appearance

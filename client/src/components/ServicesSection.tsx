@@ -5,7 +5,7 @@ export default function ServicesSection() {
         <div className="text-center mb-16 scroll-reveal">
           <h2 className="text-4xl md:text-5xl font-black text-forest mb-6 tracking-tight">WHAT WE DO</h2>
           <div className="w-24 h-1 bg-sky mx-auto mb-8"></div>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed text-justify">
             At Myristika Sustainable Solutions, we fuse advanced digital innovation with proven environmental stewardship to address today's most urgent natural resource and climate challenges. Drawing upon our deep roots in the pioneering Forest-PLUS programs and other natural resource management programs, we are committed to catalyzing a transformation in how forest and other landscapes, ecosystems are managed, restored, and governed—ensuring resilience for both ecosystems and the communities that depend on them.
           </p>
         </div>
@@ -14,7 +14,7 @@ export default function ServicesSection() {
         <div className="mb-20 scroll-reveal">
           <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12">
             <h3 className="text-3xl font-bold text-forest mb-6 text-center">Building on a Proven Legacy</h3>
-            <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
+            <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4 text-justify">
               <p>
                 The foundation of Myristika is built upon the wide-ranging expertise of our leadership and technical teams. With decades of experience shaping sustainable forestry, climate-resilient agriculture, and community-based resource management, our experts have a proven legacy of delivering transformative, science-based results. We drive landmark programs by integrating advanced technology to translate complex challenges into tangible solutions. Our work is centered on enhancing livelihoods while ensuring ecosystem resilience through:
               </p>

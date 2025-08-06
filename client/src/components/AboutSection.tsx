@@ -12,7 +12,7 @@ export default function AboutSection() {
         
         <div className="max-w-4xl mx-auto">
           <div className="scroll-reveal">
-            <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
+            <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6 text-justify">
               <p>
                 Fuelled by the urgent need to safeguard the planet's lungs, we bring together advanced digital innovation with proven principles of sustainable and participatory resource management to reimagine the monitoring, restoration, and governance of forest and other landscapes.
               </p>
