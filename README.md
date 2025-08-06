@@ -82,7 +82,7 @@ This repository is proprietary and the website code is built exclusively for **M
 ## 🙋‍♂️ Maintainer
 
 **Tech Infrastructure and Web Lead:**  
-[Pratham P. Sharma]  
+Pratham P. Sharma  
 If you have any questions or inquiries, feel free to reach out.
 
 ---
