@@ -71,6 +71,13 @@
 }
 
 @layer components {
+  .line-clamp-4 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+
   .scroll-reveal {
     opacity: 0;
     transform: translateY(30px);
