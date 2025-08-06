@@ -72,29 +72,23 @@ export default function TeamSection() {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
           {teamMembers.map((member, index) => (
-            <div key={index} className="team-card bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 scroll-reveal">
+            <div key={index} className="team-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 scroll-reveal">
               <div className="relative group">
-                <div className="w-full h-40 bg-gray-100 overflow-hidden">
-                  <img 
-                    src={member.image}
-                    alt={`${member.name}, ${member.role}`}
-                    className="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105"
-                    style={{ 
-                      objectFit: 'cover',
-                      objectPosition: 'center top'
-                    }}
-                  />
-                </div>
+                <img 
+                  src={member.image}
+                  alt={`${member.name}, ${member.role}`}
+                  className="w-full h-48 object-cover object-center transition-transform duration-300 group-hover:scale-105"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-forest/90 via-forest/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <div className="p-3 text-white">
                     <p className="text-xs leading-tight">{member.hoverInfo}</p>
                   </div>
                 </div>
               </div>
-              <div className="p-3">
-                <h3 className="text-base font-bold text-forest mb-1">{member.name}</h3>
-                <p className="text-sky font-semibold text-xs mb-2">{member.role}</p>
-                <p className="text-gray-600 text-xs leading-snug line-clamp-4">{member.description}</p>
+              <div className="p-4">
+                <h3 className="text-lg font-bold text-forest mb-1 truncate">{member.name}</h3>
+                <p className="text-sky font-semibold text-sm mb-2 truncate">{member.role}</p>
+                <p className="text-gray-600 text-xs leading-relaxed line-clamp-3">{member.description}</p>
               </div>
             </div>
           ))}
