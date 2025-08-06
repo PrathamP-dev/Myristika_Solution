@@ -6,7 +6,7 @@ export default function AboutSection() {
           <h2 className="text-4xl md:text-5xl font-black text-forest mb-6 tracking-tight">WHO WE ARE</h2>
           <div className="w-24 h-1 bg-sky mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            At Myristika Sustainable Solutions, we believe the future of our forests rests at the intersection of technology and nature.
+            At Myristika Sustainable Solutions, we believe the future of our natural resources rests at the intersection of technology and nature.
           </p>
         </div>
         
@@ -14,7 +14,7 @@ export default function AboutSection() {
           <div className="scroll-reveal">
             <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
               <p>
-                Fuelled by the urgent need to safeguard the planet's lungs, we bring together advanced digital innovation with proven principles of sustainable and participatory resource management to reimagine the monitoring, restoration, and governance of forest landscapes.
+                Fuelled by the urgent need to safeguard the planet's lungs, we bring together advanced digital innovation with proven principles of sustainable and participatory resource management to reimagine the monitoring, restoration, and governance of forest and other landscapes.
               </p>
               
               <p>
@@ -22,7 +22,7 @@ export default function AboutSection() {
               </p>
               
               <p>
-                <strong>Our mission is clear:</strong> transform how forests and natural resources are managed—by embedding real-time insights, predictive analytics, and participatory tools into every stage of planning, oversight, and restoration. We strive for a future where technology and community-led stewardship work hand-in-hand, ensuring both ecological security and social equity.
+                <strong>Our mission is clear:</strong> transform how our natural resources are managed—by embedding real-time insights, predictive analytics, and participatory tools into every stage of planning, oversight, and restoration. We strive for a future where technology and community-led stewardship work hand-in-hand, ensuring both ecological security and social equity.
               </p>
               
               <p>
@@ -34,11 +34,7 @@ export default function AboutSection() {
               </p>
               
               <p>
-                Our journey began with the pioneering USAID-supported Forest-PLUS programs, where our leadership expanded sustainable, technology-driven forestry across India—training thousands, institutionalizing digital innovations, and strengthening community livelihoods from village level to national policy.
-              </p>
-              
-              <p>
-                Today, Myristika builds upon this legacy, scaling proven innovations and introducing next-generation tools for forest monitoring, eco-restoration, agroforestry, value-chain traceability, and more.
+                Our journey began with the pioneering USAID-supported Forest-PLUS programs, strengthened by our team's wide-ranging experience across diverse sectors. This foundation enabled our leadership to expand sustainable, technology-driven forestry across India—training thousands, institutionalizing digital innovations, and strengthening community livelihoods from the village level to national policy. Today, Myristika builds upon this legacy, scaling proven innovations and introducing cutting-edge solutions to address evolving environmental and climate challenges.
               </p>
               
               <p className="text-forest font-semibold text-xl">

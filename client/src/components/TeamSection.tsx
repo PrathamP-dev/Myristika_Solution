@@ -4,57 +4,57 @@ export default function TeamSection() {
       name: "Ashish Raj",
       role: "Development Professional",
       image: "/Ashish Raj_1753968367793.png",
-      description: "26+ years experience in forestry, climate change, and community-based natural resource management. MBA in Forestry from Indian Institute of Forest Management.",
-      hoverInfo: "Expert in nature-based solutions and participatory frameworks for ecosystem services"
+      description: "26+ years experience specializing in forestry, climate change, and community-based natural resource management. MBA in Forestry from Indian Institute of Forest Management with demonstrated leadership in national and international organizations.",
+      hoverInfo: "Expert in advancing sustainable and inclusive forest landscape management and development across India and beyond"
     },
     {
       name: "Dr. Manoj Pattanaik",
       role: "Community Development Specialist",
       image: "/Manoj Pattanaik_1753968367790.png",
-      description: "35+ years working with civil society organizations in community forestry, natural resource management, and climate change adaptation. PhD in Social Work.",
-      hoverInfo: "JICA project specialist in forestry sector development and community enterprises"
+      description: "35+ years working with civil society organizations, public and private sector agencies in community forestry, community-based natural resource management, traditional ecological farming, and climate change mitigation and adaptation.",
+      hoverInfo: "Expert in institutional strengthening of community-based organizations and building linkages between communities and markets"
     },
     {
       name: "Sandeep Khanwalkar",
       role: "Natural Resource Management Expert",
       image: "/Sandeep_1753968120412.png",
-      description: "25+ years expertise in watershed planning, climate change, and nature-based solutions. Specializes in water conservation and ecological restoration.",
-      hoverInfo: "Leading innovative NbS for water treatment and traditional farming systems"
+      description: "30+ years experience in natural resource management, watershed-based landscape planning, climate change, and nature-based solutions. Specializes in scientific water conservation, sustainable agriculture, and ecological restoration.",
+      hoverInfo: "Expert in capacity building, evaluation, and communication with state governments, UN agencies, ICRISAT, and INGOs"
     },
     {
       name: "Kiran KP",
       role: "Technology & Community Integration Lead",
       image: "/Kiran KP_1753968367792.png",
-      description: "13 years bridging advanced technology and grassroots action. Engineering and forestry management background with major community-driven projects.",
-      hoverInfo: "Led watershed reports for 96,000 hectares across 220 villages in Gujarat"
+      description: "Nearly 13 years bridging advanced technology and grassroots action in the environmental sector. Engineering and forestry management degrees with expertise in fostering collaboration among diverse stakeholders.",
+      hoverInfo: "Led watershed project reports for 96,000 hectares across 220 villages in Gujarat with expertise in livelihood planning and technology solutions"
     },
     {
       name: "Dr. Gaini Sailu",
       role: "Biodiversity Conservation Expert",
       image: "/Sailu_1753968367789.png",
-      description: "18+ years in forestry, wildlife management, and biodiversity conservation. PhD in Environmental Sciences. UNDP India Biodiversity Award recipient.",
-      hoverInfo: "Leading decision support systems for forest assessment with USAID, UNDP, World Bank"
+      description: "18+ years in forestry, wildlife management, ecosystem restoration, and biodiversity conservation. PhD in Environmental Sciences with extensive training in GIS and remote sensing.",
+      hoverInfo: "Led national and state-level projects with USAID, UNDP, UNEP-GEF, World Bank, and MoEFCC, contributing to policy development and biodiversity governance"
     },
     {
       name: "Sourav Pahari",
       role: "Digital Platform Specialist",
       image: "/Sourav_1753968120410.png",
-      description: "17+ years in natural resource management and biodiversity. Designer of digital platforms like TIGRAM and NTMS for timber traceability.",
-      hoverInfo: "Expert in agroforestry, climate resilience, and landscape monitoring systems"
+      description: "17+ years in natural resource management and biodiversity across India. Led initiatives on agroforestry, traceability systems, and eco-restoration with agencies like GIZ, USAID, MoRD, MoEFCC, and NABARD.",
+      hoverInfo: "Designer and scaler of digital platforms such as TIGRAM and NTMS for timber traceability and landscape monitoring with expertise in climate resilience"
     },
     {
       name: "Manish Pant",
       role: "Communications & Outreach Specialist",
       image: "/Manish Pant_1753968367791.png",
-      description: "15+ years spanning journalism, public relations, and nonprofit advocacy. Led regional communication strategies for Forest-PLUS 3.0 program.",
-      hoverInfo: "Johns Hopkins-trained leader with expertise in mass communications and digital marketing"
+      description: "15+ years spanning journalism, public relations, stakeholder engagement, and nonprofit advocacy. Led regional communication strategies for Tetra Tech's Forest-PLUS 3.0 program for sustainable forest management and climate initiatives.",
+      hoverInfo: "Expert in bridging ecological research and public awareness through compelling media releases, infographics, and policy briefs"
     },
     {
       name: "Prashant Gamaliel",
       role: "Finance & Operations Specialist",
       image: "/Prashant Gamaliel_1753968367791.png",
-      description: "20+ years across corporate and international development sectors with organizations like Tetra Tech ARD, FHI360, and World Vision. MBA in Operations Management.",
-      hoverInfo: "Expert in financial systems design, regulatory compliance, and multi-country project oversight"
+      description: "20+ years across corporate and international development sectors. Led key functions for organizations such as Tetra Tech ARD, FHI360, and World Vision, specializing in financial systems design, regulatory compliance, and internal controls.",
+      hoverInfo: "Expert in multi-country, multi-donor project oversight, developed operational manuals, and built capacity for financial management systems"
     }
   ];
 

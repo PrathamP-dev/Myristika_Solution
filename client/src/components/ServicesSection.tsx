@@ -6,7 +6,7 @@ export default function ServicesSection() {
           <h2 className="text-4xl md:text-5xl font-black text-forest mb-6 tracking-tight">WHAT WE DO</h2>
           <div className="w-24 h-1 bg-sky mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            At Myristika Sustainable Solutions, we fuse advanced digital innovation with proven environmental stewardship to address today's most urgent natural resource and climate challenges.
+            At Myristika Sustainable Solutions, we fuse advanced digital innovation with proven environmental stewardship to address today's most urgent natural resource and climate challenges. Drawing upon our deep roots in the pioneering Forest-PLUS programs and other natural resource management programs, we are committed to catalyzing a transformation in how forest and other landscapes, ecosystems are managed, restored, and governed—ensuring resilience for both ecosystems and the communities that depend on them.
           </p>
         </div>
         
@@ -16,27 +16,33 @@ export default function ServicesSection() {
             <h3 className="text-3xl font-bold text-forest mb-6 text-center">Building on a Proven Legacy</h3>
             <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
               <p>
-                Before evolving into Myristika, our leadership and technical teams drove the landmark USAID-supported Forest-PLUS initiatives, shaping the landscape of sustainable, data-driven forest management across India and beyond. Through Forest-PLUS 2.0 and 3.0, we:
+                The foundation of Myristika is built upon the wide-ranging expertise of our leadership and technical teams. With decades of experience shaping sustainable forestry, climate-resilient agriculture, and community-based resource management, our experts have a proven legacy of delivering transformative, science-based results. We drive landmark programs by integrating advanced technology to translate complex challenges into tangible solutions. Our work is centered on enhancing livelihoods while ensuring ecosystem resilience through:
               </p>
-              <div className="grid md:grid-cols-2 gap-6 mt-8">
+              <div className="grid md:grid-cols-1 gap-6 mt-8">
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
-                    <span>Expanded sustainable forestry from a handful of divisions to over <strong>185 forest divisions</strong> across <strong>14 Indian states</strong>—impacting over <strong>9 million hectares</strong> of vital landscapes.</span>
+                    <span><strong>Strategic Policy & Advocacy:</strong> We have extensive experience shaping national and state-level policies, contributing to robust frameworks for sustainable community-based forest management, biodiversity governance, sustainable livelihood and climate resilience.</span>
                   </div>
                   <div className="flex items-start space-x-3">
                     <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
-                    <span>Trained more than <strong>7,500 individuals</strong>—including government foresters, community members, and other frontline personnel—in modern digital forestry and agroforestry practices.</span>
-                  </div>
-                </div>
-                <div className="space-y-4">
-                  <div className="flex items-start space-x-3">
-                    <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
-                    <span>Developed, piloted, and institutionalized technological and methodological innovations in State Forest Departments and key training institutions.</span>
+                    <span><strong>Data-Driven Solutions & Technological Innovation:</strong> We specialize in designing and scaling digital platforms, decision-support systems, and data analytics tools for landscape monitoring, resource assessment, and timber traceability.</span>
                   </div>
                   <div className="flex items-start space-x-3">
                     <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
-                    <span>Implemented ecosystem-based management plans that enhanced biodiversity and ecosystem services while strengthening community livelihoods.</span>
+                    <span><strong>Community-Centric Engagement & Livelihood Enhancement:</strong> Our approach is rooted in strengthening community-based organizations, fostering grassroots participation, and building equitable, nature-based enterprises that enhance local livelihoods.</span>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
+                    <span><strong>Biodiversity Conservation & Ecosystem Restoration:</strong> We possess deep expertise in wildlife management, ecosystem restoration, and implementing nature-based solutions to conserve biodiversity and enhance vital ecosystem services.</span>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
+                    <span><strong>Climate Resilience & Natural Resource Management:</strong> Our team has a proven track record in designing and implementing projects focused on climate change mitigation and adaptation, scientific water conservation, and holistic watershed management across diverse agro-climatic zones.</span>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
+                    <span><strong>Strategic Communications & Stakeholder Engagement:</strong> We excel at bridging the gap between complex science and public understanding, engaging diverse stakeholders, and communicating impact to drive policy and action.</span>
                   </div>
                 </div>
               </div>
