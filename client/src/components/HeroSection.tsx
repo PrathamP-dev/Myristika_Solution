@@ -48,19 +48,19 @@ export default function HeroSection() {
       {/* Hero Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <h1 
-          className="text-4xl md:text-6xl font-black mb-6 animate-fade-in-up tracking-tight hero-text-shadow whitespace-nowrap"
+          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black mb-6 animate-fade-in-up tracking-tight hero-text-shadow text-center leading-tight"
           style={{ fontFamily: 'Lexend Deca, sans-serif' }}
         >
-          MYRISTIKA <span className="text-sky">SUSTAINABLE SOLUTION</span>
+          MYRISTIKA <span className="text-sky block sm:inline">SUSTAINABLE SOLUTION</span>
         </h1>
         <p 
-          className="text-xl md:text-2xl mb-4 animate-fade-in-up font-light tracking-wide hero-text-shadow" 
+          className="text-lg sm:text-xl md:text-2xl mb-4 animate-fade-in-up font-light tracking-wide hero-text-shadow text-center px-2" 
           style={{ animationDelay: '0.2s', fontFamily: 'Zain, sans-serif' }}
         >
           Innovating Forests & Wildlife with Technology
         </p>
         <p 
-          className="text-lg md:text-xl mb-8 animate-fade-in-up opacity-90 font-light hero-text-shadow" 
+          className="text-base sm:text-lg md:text-xl mb-8 animate-fade-in-up opacity-90 font-light hero-text-shadow text-center px-4" 
           style={{ animationDelay: '0.4s', fontFamily: 'Zain, sans-serif' }}
         >
           Empowering environmental action through smart tools and AI
