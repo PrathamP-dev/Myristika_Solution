@@ -70,25 +70,27 @@ export default function TeamSection() {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {teamMembers.map((member, index) => (
-            <div key={index} className="team-card bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 scroll-reveal">
+            <div key={index} className="team-card bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 scroll-reveal">
               <div className="relative group">
-                <img 
-                  src={member.image}
-                  alt={`${member.name}, ${member.role}`}
-                  className="w-full h-64 object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-forest/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <div className="p-6 text-white">
-                    <p className="text-sm">{member.hoverInfo}</p>
+                <div className="w-full h-48 overflow-hidden">
+                  <img 
+                    src={member.image}
+                    alt={`${member.name}, ${member.role}`}
+                    className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110"
+                  />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-forest/90 via-forest/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                  <div className="p-4 text-white">
+                    <p className="text-xs leading-relaxed">{member.hoverInfo}</p>
                   </div>
                 </div>
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-forest mb-2">{member.name}</h3>
-                <p className="text-sky font-semibold mb-3">{member.role}</p>
-                <p className="text-gray-600 text-sm">{member.description}</p>
+              <div className="p-4">
+                <h3 className="text-lg font-bold text-forest mb-1">{member.name}</h3>
+                <p className="text-sky font-semibold text-sm mb-2">{member.role}</p>
+                <p className="text-gray-600 text-xs leading-relaxed">{member.description}</p>
               </div>
             </div>
           ))}
