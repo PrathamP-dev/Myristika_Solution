@@ -1,14 +1,14 @@
 <div align="center">
   <img src="Myristika_Solution.png" alt="Myristika Logo" width="300" />
-  <h1>Myristika Solutions – Official Website</h1>
-  <p>Designed and developed as the digital face of Myristika Solutions</p>
+  <h1>Myristika Sustainable Solutions – Official Website</h1>
+  <p>Designed and developed as the digital face of Myristika Sustainable Solutions</p>
 </div>
 
 ---
 
 ## 🌿 Overview
 
-This is the official website of **Myristika Solutions**, a modern organization focused on delivering impactful solutions. The site has been built to establish and represent their digital presence in a professional, accessible, and performance-driven manner.
+This is the official website of **Myristika Sustainable Solutions**, a modern organization focused on delivering impactful solutions. The site has been built to establish and represent their digital presence in a professional, accessible, and performance-driven manner.
 
 🔗 **Live Website**: [https://myristika.netlify.app/](https://myristika.netlify.app/)
 
@@ -75,7 +75,7 @@ This website was developed not as a personal project, but as a **core digital as
 
 ## 📄 License
 
-This repository is proprietary and the website code is built exclusively for **Myristika Solutions**. Please do not copy or reuse without explicit permission.
+This repository is proprietary and the website code is built exclusively for **Myristika Sustainable Solutions**. Please do not copy or reuse without explicit permission.
 
 ---
 
