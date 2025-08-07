@@ -14,7 +14,7 @@ export default function HeroSection() {
           src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080" 
           alt="Dense forest with filtered sunlight" 
           className={`w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-0' : 'opacity-100'}`}
-          style={{ filter: 'brightness(0.7)' }}
+          style={{ filter: 'brightness(0.9)' }}
         />
         
         {/* Video loads in background and fades in when ready */}
@@ -27,7 +27,7 @@ export default function HeroSection() {
           preload="none"
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-100' : 'opacity-0'}`}
           style={{ 
-            filter: 'brightness(0.7)',
+            filter: 'brightness(0.9)',
             transform: 'scale(1.05)',
             backfaceVisibility: 'hidden'
           }}
@@ -42,7 +42,7 @@ export default function HeroSection() {
           </div>
         )}
         
-        <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/20 to-black/50"></div>
       </div>
       
       {/* Hero Content */}
