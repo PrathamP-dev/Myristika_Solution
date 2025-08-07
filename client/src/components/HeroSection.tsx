@@ -32,7 +32,7 @@ export default function HeroSection() {
             backfaceVisibility: 'hidden'
           }}
         >
-          <source src="/WhatsApp Video 2025-07-29 at 20.11.10_ea18111b_1753803132576.mp4" type="video/mp4" />
+          <source src="/forest-video.mp4" type="video/mp4" />
         </video>
         
         {/* Loading indicator */}

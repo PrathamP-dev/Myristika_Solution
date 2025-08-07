@@ -22,7 +22,7 @@ export default function ServicesSection() {
                 <div className="space-y-4">
                   <div className="flex justify-center mb-6">
                     <img 
-                      src="/attached_assets/Infographic 1_1754583143261.png" 
+                      src="/images/infographic-1.png" 
                       alt="Strategic Policy & Advocacy Infographic" 
                       className="max-w-full h-auto rounded-lg shadow-lg"
                     />
@@ -153,7 +153,7 @@ export default function ServicesSection() {
             <div className="flex justify-center mb-12">
               <div className="bg-white rounded-lg p-4 shadow-lg">
                 <img 
-                  src="/attached_assets/Infographic 2_1754583143260.png" 
+                  src="/images/infographic-2.png" 
                   alt="Ecosystem Services Chain - Connected approach to environmental stewardship" 
                   className="max-w-full h-auto rounded-lg"
                 />
