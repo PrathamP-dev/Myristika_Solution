@@ -48,19 +48,19 @@ export default function HeroSection() {
       {/* Hero Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <h1 
-          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black mb-6 animate-fade-in-up tracking-tight hero-text-shadow text-center leading-tight"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-8 animate-fade-in-up tracking-tight hero-text-shadow text-center leading-tight"
           style={{ fontFamily: 'Lexend Deca, sans-serif' }}
         >
-          MYRISTIKA <span className="text-sky block sm:inline">SUSTAINABLE SOLUTIONS</span>
+          MYRISTIKA <span className="text-sky block sm:inline drop-shadow-2xl">SUSTAINABLE SOLUTIONS</span>
         </h1>
 
         
         <button 
           onClick={() => scrollToSection('about')}
-          className="bg-sky hover:bg-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 animate-fade-in-up shadow-lg"
+          className="bg-sky hover:bg-blue-500 text-white px-12 py-6 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 animate-fade-in-up shadow-2xl hover:shadow-sky/50"
           style={{ animationDelay: '0.6s' }}
         >
-          Learn More
+          Discover Our Impact
         </button>
         
         {/* Social Media Icons */}
