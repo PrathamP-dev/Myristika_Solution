@@ -18,6 +18,10 @@ export default function ServicesSection() {
               <p>
                 The foundation of Myristika is built upon the wide-ranging expertise of our leadership and technical teams. With decades of experience shaping sustainable forestry, climate-resilient agriculture, and community-based resource management, our experts have a proven legacy of delivering transformative, science-based results. We drive landmark programs by integrating advanced technology to translate complex challenges into tangible solutions. Our work is centered on enhancing livelihoods while ensuring ecosystem resilience through:
               </p>
+              
+              <p>
+                Myristika team has proven experience of implementing the very successful Forest-PLUS 2.0 and 3.0 programs where it developed platforms like the Van system for forest inventory data collection and analysis, TIGRAM (timber traceability solution), DSS (Decision Support) for eco-restoration and agroforestry, and NTFP-IMS for forest-based livelihood. The program brought about a digital transformation in forest management covering more than 150 forest divisions across 14 states spanning over 2.8 million hectares.
+              </p>
               <div className="grid md:grid-cols-1 gap-6 mt-8">
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">

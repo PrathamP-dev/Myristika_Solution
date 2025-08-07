@@ -30,15 +30,11 @@ export default function AboutSection() {
               </p>
               
               <p>
-                Our platforms and tools are not only aligned with national and global best practices, but also designed to advance inclusive, gender-equitable, and rights-based resource governance.
-              </p>
-              
-              <p>
                 Our journey began with the pioneering USAID-supported Forest-PLUS programs, strengthened by our team's wide-ranging experience across diverse sectors. This foundation enabled our leadership to expand sustainable, technology-driven forestry across India—training thousands, institutionalizing digital innovations, and strengthening community livelihoods from the village level to national policy. Today, Myristika builds upon this legacy, scaling proven innovations and introducing cutting-edge solutions to address evolving environmental and climate challenges.
               </p>
               
               <p className="text-forest font-semibold text-xl">
-                We are Myristika: dedicated to a world where forests and communities don't just survive—but thrive, together.
+                We are Myristika: dedicated to a world where forests, natural resources and communities don't just survive—but thrive, together.
               </p>
             </div>
           </div>
