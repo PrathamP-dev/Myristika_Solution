@@ -64,7 +64,7 @@ export default function TeamSection() {
         <div className="text-center mb-16 scroll-reveal">
           <h2 className="text-4xl md:text-5xl font-black text-forest mb-6 tracking-tight">OUR TEAM</h2>
           <div className="w-24 h-1 bg-sky mx-auto mb-8"></div>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed text-justify">
             Meet the passionate experts behind Myristika Solution - a diverse team of technologists, 
             conservationists, and innovators working together for a sustainable future.
           </p>

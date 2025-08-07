@@ -24,9 +24,12 @@ export default function ServicesSection() {
               </p>
               <div className="grid md:grid-cols-1 gap-6 mt-8">
                 <div className="space-y-4">
-                  <div className="flex items-start space-x-3">
-                    <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
-                    <span><strong>Strategic Policy & Advocacy:</strong> We have extensive experience shaping national and state-level policies, contributing to robust frameworks for sustainable community-based forest management, biodiversity governance, sustainable livelihood and climate resilience.</span>
+                  <div className="flex justify-center mb-6">
+                    <img 
+                      src="/attached_assets/Infographic 1_1754583143261.png" 
+                      alt="Strategic Policy & Advocacy Infographic" 
+                      className="max-w-full h-auto rounded-lg shadow-lg"
+                    />
                   </div>
                   <div className="flex items-start space-x-3">
                     <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
@@ -144,9 +147,11 @@ export default function ServicesSection() {
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="text-center">
-                <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4 mx-auto">
-                  <i className="fas fa-globe text-white text-xl"></i>
-                </div>
+                <img 
+                  src="/attached_assets/Infographic 2_1754583143260.png" 
+                  alt="Ecosystem Services Infographic" 
+                  className="max-w-full h-auto rounded-lg shadow-lg mx-auto mb-4"
+                />
                 <h4 className="font-semibold mb-2">Ecosystem Services</h4>
                 <p className="text-white/80 text-sm">Promoting ecosystem services-based approaches to landscape management and restoration</p>
               </div>

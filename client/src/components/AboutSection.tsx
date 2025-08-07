@@ -5,7 +5,7 @@ export default function AboutSection() {
         <div className="text-center mb-16 scroll-reveal">
           <h2 className="text-4xl md:text-5xl font-black text-forest mb-6 tracking-tight">WHO WE ARE</h2>
           <div className="w-24 h-1 bg-sky mx-auto mb-8"></div>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed text-justify">
             At Myristika Sustainable Solutions, we believe the future of our natural resources rests at the intersection of technology and nature.
           </p>
         </div>

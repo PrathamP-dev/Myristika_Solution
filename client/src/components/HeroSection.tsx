@@ -53,18 +53,7 @@ export default function HeroSection() {
         >
           MYRISTIKA <span className="text-sky block sm:inline">SUSTAINABLE SOLUTIONS</span>
         </h1>
-        <p 
-          className="text-lg sm:text-xl md:text-2xl mb-4 animate-fade-in-up font-light tracking-wide hero-text-shadow text-center px-2" 
-          style={{ animationDelay: '0.2s', fontFamily: 'Zain, sans-serif' }}
-        >
-          Innovating Forests & Wildlife with Technology
-        </p>
-        <p 
-          className="text-base sm:text-lg md:text-xl mb-8 animate-fade-in-up opacity-90 font-light hero-text-shadow text-center px-4" 
-          style={{ animationDelay: '0.4s', fontFamily: 'Zain, sans-serif' }}
-        >
-          Empowering environmental action through smart tools and AI
-        </p>
+
         
         <button 
           onClick={() => scrollToSection('about')}
