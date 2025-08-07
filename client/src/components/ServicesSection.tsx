@@ -56,17 +56,10 @@ export default function ServicesSection() {
               
               {/* Forest-PLUS Highlight Box */}
               <div className="bg-gradient-to-r from-forest/10 to-sky/10 border border-forest/20 rounded-xl p-6 mt-8 shadow-md">
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-sky rounded-full flex items-center justify-center mt-0.5 flex-shrink-0">
-                    <i className="fas fa-star text-white text-xs"></i>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-forest mb-2 text-sm">Forest-PLUS Success Story</h4>
-                    <p className="text-gray-700 text-justify leading-relaxed text-sm">
-                      Myristika team has proven experience of implementing the very successful Forest-PLUS 2.0 and 3.0 programs where it developed platforms like the Van system for forest inventory data collection and analysis, TIGRAM (timber traceability solution), DSS (Decision Support) for eco-restoration and agroforestry, and NTFP-IMS for forest-based livelihood. The program brought about a digital transformation in forest management covering more than 150 forest divisions across 14 states spanning an area of around 9 million hectares, trained over 6,500 forestry professionalism and influenced policies. The team learnt that tech works best when co-created with communities and government, when it has a buy-in from stakeholders, when it produces tangible and measurable results, and when it reduces cost and time—Myristika now amplifies & scales this vision.
-                    </p>
-                  </div>
-                </div>
+                <h4 className="font-bold text-forest mb-3 text-sm">Forest-PLUS Success Story</h4>
+                <p className="text-gray-700 text-justify leading-relaxed text-sm">
+                  Myristika team has proven experience of implementing the very successful Forest-PLUS 2.0 and 3.0 programs where it developed platforms like the Van system for forest inventory data collection and analysis, TIGRAM (timber traceability solution), DSS (Decision Support) for eco-restoration and agroforestry, and NTFP-IMS for forest-based livelihood. The program brought about a digital transformation in forest management covering more than 150 forest divisions across 14 states spanning an area of around 9 million hectares, trained over 6,500 forestry professionalism and influenced policies. The team learnt that tech works best when co-created with communities and government, when it has a buy-in from stakeholders, when it produces tangible and measurable results, and when it reduces cost and time—Myristika now amplifies & scales this vision.
+                </p>
               </div>
             </div>
           </div>
