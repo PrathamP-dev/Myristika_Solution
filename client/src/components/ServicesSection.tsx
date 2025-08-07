@@ -5,7 +5,7 @@ export default function ServicesSection() {
         <div className="text-center mb-16 scroll-reveal">
           <h2 className="text-4xl md:text-5xl font-black text-forest mb-6 tracking-tight">WHAT WE DO</h2>
           <div className="w-24 h-1 bg-sky mx-auto mb-8"></div>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed text-justify">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed text-justify">
             At Myristika Sustainable Solutions, we fuse advanced digital innovation with proven environmental stewardship to address today's most urgent natural resource and climate challenges. Drawing upon our deep roots in the pioneering Forest-PLUS programs and other natural resource management programs, we are committed to catalyzing a transformation in how forest and other landscapes, ecosystems are managed, restored, and governed—ensuring resilience for both ecosystems and the communities that depend on them.
           </p>
         </div>
@@ -15,7 +15,7 @@ export default function ServicesSection() {
           <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
             <h3 className="text-3xl font-bold text-forest mb-6 text-center">Building on a Proven Legacy</h3>
             <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4 text-justify">
-              <p>
+              <p className="text-base">
                 The foundation of Myristika is built upon the wide-ranging expertise of our leadership and technical teams. With decades of experience shaping sustainable forestry, climate-resilient agriculture, and community-based resource management, our experts have a proven legacy of delivering transformative, science-based results. We drive landmark programs by integrating advanced technology to translate complex challenges into tangible solutions. Our work is centered on enhancing livelihoods and creating equitable opportunities, with a dedicated focus on empowering women and marginalized communities. Our work delivers transformative, science-based results that empower communities and restore ecosystems across India and beyond.
               </p>
               
@@ -55,14 +55,17 @@ export default function ServicesSection() {
               </div>
               
               {/* Forest-PLUS Highlight Box */}
-              <div className="bg-gradient-to-br from-forest to-nature-dark rounded-xl p-6 text-white mt-8 border-l-4 border-sky shadow-lg">
+              <div className="bg-gradient-to-r from-forest/10 to-sky/10 border border-forest/20 rounded-xl p-6 mt-8 shadow-md">
                 <div className="flex items-start space-x-3">
-                  <div className="w-8 h-8 bg-sky/20 rounded-lg flex items-center justify-center mt-1 flex-shrink-0">
-                    <i className="fas fa-star text-sky text-sm"></i>
+                  <div className="w-6 h-6 bg-sky rounded-full flex items-center justify-center mt-0.5 flex-shrink-0">
+                    <i className="fas fa-star text-white text-xs"></i>
                   </div>
-                  <p className="text-justify leading-relaxed">
-                    Myristika team has proven experience of implementing the very successful Forest-PLUS 2.0 and 3.0 programs where it developed platforms like the Van system for forest inventory data collection and analysis, TIGRAM (timber traceability solution), DSS (Decision Support) for eco-restoration and agroforestry, and NTFP-IMS for forest-based livelihood. The program brought about a digital transformation in forest management covering more than 150 forest divisions across 14 states spanning an area of around 9 million hectares, trained over 6,500 forestry professionalism and influenced policies. The team learnt that tech works best when co-created with communities and government, when it has a buy-in from stakeholders, when it produces tangible and measurable results, and when it reduces cost and time—Myristika now amplifies & scales this vision.
-                  </p>
+                  <div>
+                    <h4 className="font-bold text-forest mb-2 text-sm">Forest-PLUS Success Story</h4>
+                    <p className="text-gray-700 text-justify leading-relaxed text-sm">
+                      Myristika team has proven experience of implementing the very successful Forest-PLUS 2.0 and 3.0 programs where it developed platforms like the Van system for forest inventory data collection and analysis, TIGRAM (timber traceability solution), DSS (Decision Support) for eco-restoration and agroforestry, and NTFP-IMS for forest-based livelihood. The program brought about a digital transformation in forest management covering more than 150 forest divisions across 14 states spanning an area of around 9 million hectares, trained over 6,500 forestry professionalism and influenced policies. The team learnt that tech works best when co-created with communities and government, when it has a buy-in from stakeholders, when it produces tangible and measurable results, and when it reduces cost and time—Myristika now amplifies & scales this vision.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -73,7 +76,7 @@ export default function ServicesSection() {
         <div className="mb-20">
           <div className="text-center mb-12 scroll-reveal">
             <h3 className="text-3xl font-bold text-forest mb-4">Innovative Technology Suite for Natural Resource Management</h3>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Our core strength is the development and scaling of user-centric, policy-aligned digital platforms that operationalize participatory, science-based, and climate-smart ecosystem management.
             </p>
           </div>
@@ -152,18 +155,20 @@ export default function ServicesSection() {
           <div className="bg-gradient-to-br from-forest to-nature-dark rounded-2xl shadow-xl p-8 md:p-12 text-white">
             <h3 className="text-3xl font-bold mb-6 text-center">Shaping the Future: Our Vision for Impact</h3>
             <div className="prose prose-lg max-w-none text-white/90 leading-relaxed mb-8">
-              <p className="text-center text-lg mb-8">
+              <p className="text-center text-base mb-8">
                 Building on the technical excellence and partnerships formed under the Forest-PLUS legacy and other NRM based programs, Myristika is dedicated to driving broad-based, climate-positive impact through innovation and collaboration.
               </p>
             </div>
             
             {/* Ecosystem Services Chain Infographic */}
             <div className="flex justify-center mb-12">
-              <img 
-                src="/attached_assets/Infographic 2_1754583143260.png" 
-                alt="Ecosystem Services Chain - Connected approach to environmental stewardship" 
-                className="max-w-full h-auto rounded-lg shadow-lg"
-              />
+              <div className="bg-white rounded-lg p-4 shadow-lg">
+                <img 
+                  src="/attached_assets/Infographic 2_1754583143260.png" 
+                  alt="Ecosystem Services Chain - Connected approach to environmental stewardship" 
+                  className="max-w-full h-auto rounded-lg"
+                />
+              </div>
             </div>
             
             {/* 8 Primary Objectives Grid */}

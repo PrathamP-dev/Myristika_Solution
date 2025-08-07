@@ -57,10 +57,10 @@ export default function HeroSection() {
         
         <button 
           onClick={() => scrollToSection('about')}
-          className="bg-sky hover:bg-blue-500 text-white px-12 py-6 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 animate-fade-in-up shadow-2xl hover:shadow-sky/50"
+          className="bg-sky hover:bg-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 animate-fade-in-up shadow-lg"
           style={{ animationDelay: '0.6s' }}
         >
-          Discover Our Impact
+          Learn More
         </button>
         
         {/* Social Media Icons */}
