@@ -4,21 +4,21 @@ export default function TeamSection() {
       name: "Ashish Raj",
       role: "Development Professional",
       image: "/images/ashish-raj.png",
-      description: "26+ years experience specializing in forestry, climate change, and community-based natural resource management. MBA in Forestry from Indian Institute of Forest Management with demonstrated leadership in national and international organizations contributing to advancing sustainable and inclusive forest landscape management and development across India and beyond.",
-      hoverInfo: "Expert in advancing sustainable and inclusive forest landscape management and development across India and beyond with proven leadership in national and international organizations"
+      description: "26+ years experience specializing in forestry, climate change, and community-based natural resource management. MBA in Forestry from Indian Institute of Forest Management with demonstrated leadership in national and international organizations contributing to advancing sustainable and inclusive forest landscape management and development across India and beyond. Expertise includes designing and implementing innovative nature-based solutions, integrating data-driven forest analytics, and establishing participatory frameworks that enhance ecosystem services while supporting effective climate mitigation.",
+      hoverInfo: "Expert in aligning advanced technology with policy advocacy and grassroots engagement for climate action and sustainable natural resource management initiatives"
     },
     {
       name: "Dr. Manoj Pattanaik",
       role: "Community Development Specialist",
       image: "/images/manoj-pattanaik.png",
-      description: "35+ years working with civil society organizations, public and private sector agencies and local communities in community forestry, community-based natural resource management, traditional ecological farming, climate change mitigation and adaptation, community-managed enterprises in agriculture and forestry sectors.",
+      description: "35+ years working with civil society organizations, public and private sector agencies and local communities in community forestry, community-based natural resource management, traditional ecological farming, climate change mitigation and adaptation, community-managed enterprises in agriculture and forestry sectors. PhD in Social Work with experience in large scale forestry sector development projects supported by Japan International Cooperation Agency (JICA) for both project formulation and implementation.",
       hoverInfo: "Expert in institutional strengthening of community-based organizations and building linkages between communities, government agencies, and private sector for sustainable livelihood enhancement"
     },
     {
       name: "Sandeep Khanwalkar",
       role: "Natural Resource Management Expert",
       image: "/images/sandeep.png",
-      description: "30+ years experience in natural resource management, watershed-based landscape planning, climate change, and nature-based solutions. Specializes in scientific water conservation, sustainable agriculture, and ecological restoration, with strong focus on capacity building, evaluation, and communication.",
+      description: "30+ years experience in natural resource management, watershed-based landscape planning, climate change, and nature-based solutions. Specializes in scientific water conservation, sustainable agriculture, and ecological restoration, with strong focus on capacity building, evaluation, and communication. Recently implementing innovative Nature-based Solutions (NbS) for treating grey and black water, promoting natural farming systems, and leading efforts in reviving traditional water bodies.",
       hoverInfo: "Worked with state governments, UN agencies, ICRISAT, and INGOs across India and internationally on watershed management and climate resilience projects"
     },
     {
@@ -32,22 +32,22 @@ export default function TeamSection() {
       name: "Dr. Gaini Sailu",
       role: "Biodiversity Conservation Expert",
       image: "/images/sailu.png",
-      description: "18+ years in forestry, wildlife management, ecosystem restoration, and biodiversity conservation. PhD in Environmental Sciences with extensive training in GIS and remote sensing. Led national and state-level projects with organizations like USAID, UNDP, UNEP-GEF, World Bank, and MoEFCC.",
-      hoverInfo: "Expert in policy development, biodiversity governance, and Access and Benefit Sharing (ABS) mechanisms with proven leadership in major conservation initiatives"
+      description: "18+ years in forestry, wildlife management, ecosystem restoration, and biodiversity conservation. PhD in Environmental Sciences with extensive training in forestry and biotechnology. Led national and state-level projects with organizations like USAID, UNDP, UNEP-GEF, World Bank, and MoEFCC, contributing to policy development, biodiversity governance, and Access and Benefit Sharing (ABS) mechanisms. Pioneered decision support systems for forest resource assessment and eco-restoration across India. Received awards including the UNDP India Biodiversity Award.",
+      hoverInfo: "Award-winning expert committed to integrating science, policy, and community-based conservation with pioneering work in decision support systems"
     },
     {
       name: "Sourav Pahari",
       role: "Digital Platform Specialist",
       image: "/images/sourav.png",
-      description: "17+ years in natural resource management and biodiversity across India. Led initiatives on agroforestry, traceability systems, and eco-restoration with agencies like GIZ, USAID, MoRD, MoEFCC, and NABARD. Designer and scaler of digital platforms such as TIGRAM and NTMS for timber traceability and landscape monitoring.",
-      hoverInfo: "Expert in climate resilience, land restoration, and community-based natural resource management with proven experience in scaling technology solutions"
+      description: "17+ years in natural resource management and biodiversity across India. Led initiatives on agroforestry, traceability systems, and eco-restoration with agencies like GIZ, USAID, MoRD, MoEFCC, and NABARD. Designer and scaler of digital platforms such as TIGRAM and NTMS for timber traceability and landscape monitoring. Expertise spans climate resilience, land restoration, and community-based forestry across diverse agro-climatic zones. Authored key policy notes and engaged with multi-stakeholder platforms at state and national levels.",
+      hoverInfo: "Expert in multi-stakeholder engagement with proven experience in authoring policy notes and scaling technology solutions across diverse agro-climatic zones"
     },
     {
       name: "Manish Pant",
       role: "Communications & Outreach Specialist",
       image: "/images/manish-pant.png",
-      description: "15+ years spanning journalism, public relations, stakeholder engagement, and nonprofit advocacy. Most recently served as Communications and Outreach Specialist for Tetra Tech's Forest-PLUS 3.0 program, leading regional communication strategies for sustainable forest management and climate initiatives.",
-      hoverInfo: "Expert in bridging the gap between ecological research and public awareness through compelling media releases, infographics, and policy briefs"
+      description: "15+ years spanning journalism, public relations, stakeholder engagement, and nonprofit advocacy. Most recently served as Communications and Outreach Specialist for Tetra Tech's Forest-PLUS 3.0 program, leading regional communication strategies for sustainable forest management and climate initiatives. Johns Hopkins-trained leader with advanced degrees in mass communications, business management, and digital marketing. Contributed to high-impact national reports and conferences on tobacco control and public health in India.",
+      hoverInfo: "Johns Hopkins-trained expert in bridging ecological research and public awareness with contributions to high-impact national reports and health conferences"
     },
     {
       name: "Prashant Gamaliel",

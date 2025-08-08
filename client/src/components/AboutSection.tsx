@@ -30,7 +30,7 @@ export default function AboutSection() {
               </p>
               
               <p>
-                Our journey began with the pioneering USAID-supported Forest-PLUS programs, strengthened by our team's wide-ranging experience across diverse sectors. This foundation enabled our leadership to expand sustainable, technology-driven forestry across India—training thousands, institutionalizing digital innovations, and strengthening community livelihoods from the village level to national policy. Today, Myristika builds upon this legacy, scaling proven innovations and introducing cutting-edge solutions to address evolving environmental and climate challenges.
+                Our journey began with the pioneering USAID-supported Forest-PLUS programs, strengthened by our team's wide-ranging experience across diverse sectors. This foundation enabled our leadership to expand sustainable, technology-driven forestry across India—training thousands, institutionalizing digital innovations, and strengthening community livelihoods from the village level to national policy. Today, Myristika builds upon this legacy, scaling proven innovations and introducing next-generation tools for forest monitoring, eco-restoration, agroforestry, value-chain traceability, nature-based solutions, entrepreneurship and more.
               </p>
               
               <p className="text-forest font-semibold text-xl">
