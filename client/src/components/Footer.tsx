@@ -8,11 +8,12 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 flex items-center justify-center">
-                <i className="fas fa-leaf text-forest text-xl"></i>
-              </div>
-              <span className="text-xl font-bold">MYRISTIKA</span>
+            <div className="mb-4">
+              <img 
+                src="/images/myristika-logo.png" 
+                alt="Myristika Sustainable Solutions" 
+                className="h-12 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Pioneering the future of environmental conservation through innovative technology solutions.

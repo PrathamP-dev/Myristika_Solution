@@ -36,16 +36,15 @@ export default function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 flex items-center justify-center">
-              <i className="fas fa-leaf text-forest text-xl"></i>
-            </div>
-            <span 
-              className={`text-xl font-bold transition-colors ${
-                isScrolled ? 'text-forest' : 'text-white'
+          <div className="flex items-center">
+            <img 
+              src="/images/myristika-logo.png" 
+              alt="Myristika Sustainable Solutions" 
+              className={`h-10 w-auto cursor-pointer transition-all duration-300 ${
+                isScrolled ? 'brightness-100' : 'brightness-0 invert'
               }`}
-              style={{ fontFamily: 'Lexend Deca, sans-serif' }}
-            >MYRISTIKA</span>
+              onClick={() => scrollToSection('hero')}
+            />
           </div>
           
           <div className="hidden md:flex space-x-8">
