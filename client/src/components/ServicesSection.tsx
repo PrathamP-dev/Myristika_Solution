@@ -34,7 +34,7 @@ export default function ServicesSection() {
               <div className="bg-gradient-to-r from-forest/10 to-sky/10 border border-forest/20 rounded-xl p-6 mt-8 shadow-md">
                 <h4 className="font-bold text-forest mb-3 text-sm">Forest-PLUS Success Story</h4>
                 <p className="text-gray-700 text-justify leading-relaxed text-sm">
-                  Myristika team has proven experience of implementing the very successful Forest-PLUS 2.0 and 3.0 programs where it developed platforms like the Van system for forest inventory data collection and analysis, TIGRAM (timber traceability solution), DSS (Decision Support) for eco-restoration and agroforestry, and NTFP-IMS for forest-based livelihood. The program brought about a digital transformation in forest management covering more than 150 forest divisions across 14 states spanning an area of around 9 million hectares, trained over 6,500 forestry professionalism and influenced policies. The team learnt that tech works best when co-created with communities and government, when it has a buy-in from stakeholders, when it produces tangible and measurable results, and when it reduces cost and time—Myristika now amplifies & scales this vision.
+                  Myristika team has proven experience of implementing the very successful Forest-PLUS 2.0 and 3.0 programs where it developed platforms like the <em>Van</em> system for forest inventory data collection and analysis, TIGRAM (timber traceability solution), DSS (Decision Support) for eco-restoration and agroforestry, and NTFP-IMS for forest-based livelihood. The program brought about a digital transformation in forest management covering more than 150 forest divisions across 14 states spanning an area of around 9 million hectares, trained over 6,500 forestry professionalism and influenced policies. The team learnt that tech works best when co-created with communities and government, when it has a buy-in from stakeholders, when it produces tangible and measurable results, and when it reduces cost and time—Myristika now amplifies & scales this vision.
                 </p>
               </div>
             </div>
@@ -56,7 +56,7 @@ export default function ServicesSection() {
               <div className="w-16 h-16 bg-gradient-to-br from-forest to-sky rounded-xl flex items-center justify-center mb-6 mx-auto">
                 <i className="fas fa-tree text-white text-2xl"></i>
               </div>
-              <h4 className="text-xl font-bold text-forest mb-4 text-center">Van System</h4>
+              <h4 className="text-xl font-bold text-forest mb-4 text-center"><em>Van</em> System</h4>
               <p className="text-gray-600 text-center leading-relaxed">
                 A comprehensive field-to-desk platform for real-time forest data collection and analytics—supporting inventory, census, ecological monitoring, and geospatial mapping with mobile and web interfaces.
               </p>

@@ -60,7 +60,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Technologies</h4>
             <ul className="space-y-2 text-sm">
-              <li><span className="text-gray-300">Van System</span></li>
+              <li><span className="text-gray-300"><em>Van</em> System</span></li>
               <li><span className="text-gray-300">DSS-Ecorestoration</span></li>
               <li><span className="text-gray-300">DSS-Agroforestry</span></li>
               <li><span className="text-gray-300">NTFP-IMS</span></li>
