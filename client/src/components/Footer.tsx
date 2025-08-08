@@ -57,17 +57,6 @@ export default function Footer() {
             </ul>
           </div>
           
-          <div>
-            <h4 className="font-bold mb-4">Technologies</h4>
-            <ul className="space-y-2 text-sm">
-              <li><span className="text-gray-300"><em>Van</em> System</span></li>
-              <li><span className="text-gray-300">DSS-Ecorestoration</span></li>
-              <li><span className="text-gray-300">DSS-Agroforestry</span></li>
-              <li><span className="text-gray-300">NTFP-IMS</span></li>
-              <li><span className="text-gray-300">TIGRAM</span></li>
-              <li><span className="text-gray-300">AI & ML Solutions</span></li>
-            </ul>
-          </div>
           
           <div>
             <h4 className="font-bold mb-4">Follow Us</h4>
