@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="MYRISTIKA SUSTAINABLE SOLUTIONS.png" alt="Myristika Logo" width="300" />
+  <img src="MYRISTIKA_SUSTAINABLE_SOLUTIONS.png" alt="Myristika Logo" width="300" />
   <h1>Myristika Sustainable Solutions – Official Website</h1>
   <p>Designed and developed as the digital face of Myristika Sustainable Solutions</p>
 </div>
