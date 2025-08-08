@@ -27,26 +27,6 @@ export default function ServicesSection() {
                       className="max-w-full h-auto rounded-lg shadow-lg"
                     />
                   </div>
-                  <div className="flex items-start space-x-3">
-                    <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
-                    <span><strong>Data-Driven Solutions & Technological Innovation:</strong> We specialize in designing and scaling digital platforms, decision-support systems, and data analytics tools for landscape monitoring, resource assessment, and timber traceability.</span>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
-                    <span><strong>Community-Centric Engagement & Livelihood Enhancement:</strong> Our approach is rooted in strengthening community-based organizations, fostering grassroots participation, and building equitable, nature-based enterprises that enhance local livelihoods.</span>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
-                    <span><strong>Biodiversity Conservation & Ecosystem Restoration:</strong> We possess deep expertise in wildlife management, ecosystem restoration, and implementing nature-based solutions to conserve biodiversity and enhance vital ecosystem services.</span>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
-                    <span><strong>Climate Resilience & Natural Resource Management:</strong> Our team has a proven track record in designing and implementing projects focused on climate change mitigation and adaptation, scientific water conservation, and holistic watershed management across diverse agro-climatic zones.</span>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <i className="fas fa-check-circle text-sky text-xl mt-1"></i>
-                    <span><strong>Strategic Communications & Stakeholder Engagement:</strong> We excel at bridging the gap between complex science and public understanding, engaging diverse stakeholders, and communicating impact to drive policy and action.</span>
-                  </div>
                 </div>
               </div>
               
