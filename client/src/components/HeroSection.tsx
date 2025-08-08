@@ -47,13 +47,13 @@ export default function HeroSection() {
       
       {/* Hero Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-        <h1 
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-8 animate-fade-in-up tracking-tight hero-text-shadow text-center leading-tight"
-          style={{ fontFamily: 'Lexend Deca, sans-serif' }}
-        >
-          <div>MYRISTIKA <span className="text-sky drop-shadow-2xl">SUSTAINABLE</span></div>
-          <div className="text-sky drop-shadow-2xl">SOLUTIONS</div>
-        </h1>
+        <div className="animate-fade-in-up mb-8">
+          <img 
+            src="/images/myristika-logo.png" 
+            alt="Myristika Sustainable Solutions" 
+            className="mx-auto h-32 sm:h-40 md:h-48 lg:h-56 w-auto brightness-0 invert drop-shadow-2xl hover:scale-105 transition-transform duration-500"
+          />
+        </div>
 
         
         <button 

@@ -40,8 +40,10 @@ export default function Navigation() {
             <img 
               src="/images/myristika-logo.png" 
               alt="Myristika Sustainable Solutions" 
-              className={`h-10 w-auto cursor-pointer transition-all duration-300 ${
-                isScrolled ? 'brightness-100' : 'brightness-0 invert'
+              className={`h-12 w-auto cursor-pointer transition-all duration-300 hover:scale-105 ${
+                isScrolled 
+                  ? 'brightness-100 drop-shadow-sm' 
+                  : 'brightness-0 invert drop-shadow-lg'
               }`}
               onClick={() => scrollToSection('hero')}
             />

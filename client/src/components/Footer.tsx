@@ -12,7 +12,7 @@ export default function Footer() {
               <img 
                 src="/images/myristika-logo.png" 
                 alt="Myristika Sustainable Solutions" 
-                className="h-12 w-auto brightness-0 invert"
+                className="h-16 w-auto brightness-0 invert opacity-90 hover:opacity-100 transition-opacity duration-300"
               />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
