@@ -2,7 +2,7 @@ export default function TeamSection() {
   const teamMembers = [
     {
       name: "Ashish Raj",
-      role: "Development Professional",
+      role: "Founder and Director",
       image: "/images/ashish-raj.png",
       description: "26+ years experience specializing in forestry, climate change, and community-based natural resource management. MBA in Forestry from Indian Institute of Forest Management with demonstrated leadership in national and international organizations contributing to advancing sustainable and inclusive forest landscape management and development across India and beyond. Expertise includes designing and implementing innovative nature-based solutions, integrating data-driven forest analytics, and establishing participatory frameworks that enhance ecosystem services while supporting effective climate mitigation.",
       hoverInfo: "Expert in aligning advanced technology with policy advocacy and grassroots engagement for climate action and sustainable natural resource management initiatives"
