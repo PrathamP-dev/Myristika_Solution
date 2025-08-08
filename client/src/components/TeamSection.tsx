@@ -48,6 +48,13 @@ export default function TeamSection() {
       image: "/images/manish-pant.png",
       description: "Manish Pant has over 15 years of diverse experience spanning journalism, public relations, stakeholder engagement, and nonprofit advocacy. Manish most recently served as the Communications and Outreach Specialist for Tetra Tech's Forest-PLUS 3.0 program, where he led regional communication strategies for sustainable forest management and climate initiatives, bridging the gap between ecological research and public awareness through compelling media releases, infographics, and policy briefs. A Johns Hopkins-trained leader, he holds advanced degrees in mass communications, business management, and digital marketing, and has contributed to high-impact national reports and conferences on tobacco control and public health in India.",
       hoverInfo: "Johns Hopkins-trained expert in bridging ecological research and public awareness with contributions to high-impact national reports and health conferences"
+    },
+    {
+      name: "Prashant Gamaliel",
+      role: "Finance & Operations Specialist",
+      image: "/images/prashant-gamaliel.png",
+      description: "20+ years across corporate and international development sectors. Led key functions for organizations such as Tetra Tech ARD, FHI360, and World Vision, specializing in financial systems design, regulatory compliance, and internal controls.",
+      hoverInfo: "Expert in multi-country, multi-donor project oversight, developed operational manuals, and built capacity for financial management systems"
     }
   ];
 
@@ -63,7 +70,7 @@ export default function TeamSection() {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
           {teamMembers.map((member, index) => (
             <div key={index} className="team-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 scroll-reveal">
               <div className="relative group">
