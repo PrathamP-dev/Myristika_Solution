@@ -42,7 +42,7 @@ export default function Navigation() {
               alt="Myristika Sustainable Solutions" 
               className={`h-12 w-auto cursor-pointer transition-all duration-300 hover:scale-105 ${
                 isScrolled 
-                  ? 'brightness-100 drop-shadow-sm' 
+                  ? 'drop-shadow-sm' 
                   : 'brightness-0 invert drop-shadow-lg'
               }`}
               onClick={() => scrollToSection('hero')}

@@ -8,11 +8,11 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="mb-4">
+            <div className="mb-4 p-3 bg-white/10 rounded-lg inline-block">
               <img 
                 src="/images/myristika-logo.png" 
                 alt="Myristika Sustainable Solutions" 
-                className="h-16 w-auto brightness-0 invert opacity-90 hover:opacity-100 transition-opacity duration-300"
+                className="h-14 w-auto opacity-90 hover:opacity-100 transition-opacity duration-300"
               />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
