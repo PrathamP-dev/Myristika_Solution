@@ -5,7 +5,14 @@ export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { scrollToSection } = useSmoothScroll();
+
+  // Function to handle mobile menu navigation
+  const handleMobileNavigation = (sectionId: string) => {
+    scrollToSection(sectionId);
+    setIsMobileMenuOpen(false);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -92,13 +99,64 @@ export default function Navigation() {
             </button>
           </div>
           
-          <button className={`md:hidden transition-colors ${
-            isScrolled ? 'text-forest' : 'text-white'
-          }`}>
-            <i className="fas fa-bars text-xl"></i>
+          <button 
+            className={`md:hidden transition-colors ${
+              isScrolled ? 'text-forest' : 'text-white'
+            }`}
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            <i className={`fas ${isMobileMenuOpen ? 'fa-times' : 'fa-bars'} text-xl`}></i>
           </button>
         </div>
       </div>
+      
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden navbar-blur border-t border-white/20">
+          <div className="max-w-7xl mx-auto px-4 py-4 space-y-4">
+            <button 
+              onClick={() => handleMobileNavigation('hero')} 
+              className={`block w-full text-left py-2 hover:text-sky transition-colors font-medium ${
+                isScrolled ? 'text-gray-700' : 'text-white/90'
+              }`}
+            >
+              Home
+            </button>
+            <button 
+              onClick={() => handleMobileNavigation('about')} 
+              className={`block w-full text-left py-2 hover:text-sky transition-colors font-medium ${
+                isScrolled ? 'text-gray-700' : 'text-white/90'
+              }`}
+            >
+              Who We Are
+            </button>
+            <button 
+              onClick={() => handleMobileNavigation('services')} 
+              className={`block w-full text-left py-2 hover:text-sky transition-colors font-medium ${
+                isScrolled ? 'text-gray-700' : 'text-white/90'
+              }`}
+            >
+              What We Do
+            </button>
+            <button 
+              onClick={() => handleMobileNavigation('team')} 
+              className={`block w-full text-left py-2 hover:text-sky transition-colors font-medium ${
+                isScrolled ? 'text-gray-700' : 'text-white/90'
+              }`}
+            >
+              Our Team
+            </button>
+            <button 
+              onClick={() => handleMobileNavigation('contact')} 
+              className={`block w-full text-left py-2 hover:text-sky transition-colors font-medium ${
+                isScrolled ? 'text-gray-700' : 'text-white/90'
+              }`}
+            >
+              Contact
+            </button>
+          </div>
+        </div>
+      )}
     </nav>
   );
 }
