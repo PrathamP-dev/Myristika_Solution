@@ -52,7 +52,7 @@ export default function HeroSection() {
             <img 
               src="/images/myristika-logo.png" 
               alt="Myristika Sustainable Solutions" 
-              className="mx-auto h-24 sm:h-32 md:h-36 lg:h-40 w-auto drop-shadow-xl hover:scale-105 transition-transform duration-500"
+              className="mx-auto h-24 sm:h-32 md:h-36 lg:h-40 w-auto brightness-0 invert drop-shadow-xl hover:scale-105 transition-transform duration-500"
             />
           </div>
         </div>
