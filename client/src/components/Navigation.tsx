@@ -42,12 +42,12 @@ export default function Navigation() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-2">
           <div className="flex items-center">
             <img 
               src="/images/myristika-logo.png" 
               alt="Myristika Sustainable Solutions" 
-              className={`h-20 w-auto cursor-pointer transition-all duration-300 hover:scale-105 ${
+              className={`h-16 w-auto cursor-pointer transition-all duration-300 hover:scale-105 ${
                 isScrolled 
                   ? 'drop-shadow-sm' 
                   : 'brightness-0 invert drop-shadow-lg'
