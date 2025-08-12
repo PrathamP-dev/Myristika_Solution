@@ -12,10 +12,10 @@ export default function Footer() {
               <img 
                 src="/images/myristika-logo.png" 
                 alt="Myristika Sustainable Solutions" 
-                className="h-20 w-auto brightness-0 invert opacity-90 hover:opacity-100 transition-opacity duration-300"
+                className="h-24 w-auto brightness-0 invert opacity-90 hover:opacity-100 transition-opacity duration-300"
                 style={{ 
                   imageRendering: 'crisp-edges',
-                  filter: 'brightness(0) invert(1) drop-shadow(0 2px 4px rgb(0 0 0 / 0.1))'
+                  filter: 'brightness(0) invert(1) contrast(1.3) saturate(1.2) drop-shadow(0 3px 8px rgb(0 0 0 / 0.2))'
                 }}
               />
             </div>

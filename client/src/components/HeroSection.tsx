@@ -55,7 +55,7 @@ export default function HeroSection() {
               className="mx-auto h-28 sm:h-36 md:h-44 lg:h-48 w-auto brightness-0 invert drop-shadow-xl hover:scale-105 transition-transform duration-500"
               style={{ 
                 imageRendering: 'crisp-edges',
-                filter: 'brightness(0) invert(1) drop-shadow(0 25px 25px rgb(0 0 0 / 0.15))'
+                filter: 'brightness(0) invert(1) contrast(1.3) saturate(1.2) drop-shadow(0 25px 25px rgb(0 0 0 / 0.2))'
               }}
             />
           </div>

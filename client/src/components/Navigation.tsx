@@ -47,7 +47,7 @@ export default function Navigation() {
             <img 
               src="/images/myristika-logo.png" 
               alt="Myristika Sustainable Solutions" 
-              className={`h-16 w-auto cursor-pointer transition-all duration-300 hover:scale-105 ${
+              className={`h-20 w-auto cursor-pointer transition-all duration-300 hover:scale-105 ${
                 isScrolled 
                   ? 'drop-shadow-sm' 
                   : 'brightness-0 invert drop-shadow-lg'
@@ -56,8 +56,8 @@ export default function Navigation() {
               style={{ 
                 imageRendering: 'crisp-edges',
                 filter: isScrolled 
-                  ? 'drop-shadow(0 1px 2px rgb(0 0 0 / 0.1))' 
-                  : 'brightness(0) invert(1) drop-shadow(0 4px 6px rgb(0 0 0 / 0.1))'
+                  ? 'contrast(1.2) saturate(1.1) drop-shadow(0 1px 3px rgb(0 0 0 / 0.15))' 
+                  : 'brightness(0) invert(1) contrast(1.3) saturate(1.2) drop-shadow(0 4px 8px rgb(0 0 0 / 0.2))'
               }}
             />
           </div>
