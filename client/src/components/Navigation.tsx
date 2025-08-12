@@ -45,7 +45,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <img 
-              src="/images/myristika-logo.svg" 
+              src="/images/myristika-logo.png" 
               alt="Myristika Sustainable Solutions" 
               className={`h-16 w-auto cursor-pointer transition-all duration-300 hover:scale-105 ${
                 isScrolled 
@@ -53,7 +53,12 @@ export default function Navigation() {
                   : 'brightness-0 invert drop-shadow-lg'
               }`}
               onClick={() => scrollToSection('hero')}
-              style={{ imageRendering: 'crisp-edges' }}
+              style={{ 
+                imageRendering: 'crisp-edges',
+                filter: isScrolled 
+                  ? 'drop-shadow(0 1px 2px rgb(0 0 0 / 0.1))' 
+                  : 'brightness(0) invert(1) drop-shadow(0 4px 6px rgb(0 0 0 / 0.1))'
+              }}
             />
           </div>
           

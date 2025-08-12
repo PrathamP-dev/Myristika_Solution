@@ -50,7 +50,7 @@ export default function HeroSection() {
         <div className="animate-fade-in-up mb-8">
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mx-auto inline-block">
             <img 
-              src="/images/myristika-logo.svg" 
+              src="/images/myristika-logo.png" 
               alt="Myristika Sustainable Solutions" 
               className="mx-auto h-28 sm:h-36 md:h-44 lg:h-48 w-auto brightness-0 invert drop-shadow-xl hover:scale-105 transition-transform duration-500"
               style={{ 

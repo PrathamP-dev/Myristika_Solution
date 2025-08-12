@@ -10,10 +10,13 @@ export default function Footer() {
           <div>
             <div className="mb-4 p-4 bg-white/10 rounded-lg inline-block">
               <img 
-                src="/images/myristika-logo.svg" 
+                src="/images/myristika-logo.png" 
                 alt="Myristika Sustainable Solutions" 
                 className="h-20 w-auto brightness-0 invert opacity-90 hover:opacity-100 transition-opacity duration-300"
-                style={{ imageRendering: 'crisp-edges' }}
+                style={{ 
+                  imageRendering: 'crisp-edges',
+                  filter: 'brightness(0) invert(1) drop-shadow(0 2px 4px rgb(0 0 0 / 0.1))'
+                }}
               />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
