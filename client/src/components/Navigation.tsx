@@ -118,45 +118,39 @@ export default function Navigation() {
       
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden navbar-blur border-t border-white/20">
+        <div className="md:hidden border-t border-white/20" style={{
+          backdropFilter: 'blur(20px)',
+          WebkitBackdropFilter: 'blur(20px)',
+          background: 'rgba(0, 0, 0, 0.85)'
+        }}>
           <div className="max-w-7xl mx-auto px-4 py-4 space-y-4">
             <button 
               onClick={() => handleMobileNavigation('hero')} 
-              className={`block w-full text-left py-2 hover:text-sky transition-colors font-medium ${
-                isScrolled ? 'text-gray-700' : 'text-white/90'
-              }`}
+              className="block w-full text-left py-2 hover:text-sky transition-colors font-medium text-white/90"
             >
               Home
             </button>
             <button 
               onClick={() => handleMobileNavigation('about')} 
-              className={`block w-full text-left py-2 hover:text-sky transition-colors font-medium ${
-                isScrolled ? 'text-gray-700' : 'text-white/90'
-              }`}
+              className="block w-full text-left py-2 hover:text-sky transition-colors font-medium text-white/90"
             >
               Who We Are
             </button>
             <button 
               onClick={() => handleMobileNavigation('services')} 
-              className={`block w-full text-left py-2 hover:text-sky transition-colors font-medium ${
-                isScrolled ? 'text-gray-700' : 'text-white/90'
-              }`}
+              className="block w-full text-left py-2 hover:text-sky transition-colors font-medium text-white/90"
             >
               What We Do
             </button>
             <button 
               onClick={() => handleMobileNavigation('team')} 
-              className={`block w-full text-left py-2 hover:text-sky transition-colors font-medium ${
-                isScrolled ? 'text-gray-700' : 'text-white/90'
-              }`}
+              className="block w-full text-left py-2 hover:text-sky transition-colors font-medium text-white/90"
             >
               Our Team
             </button>
             <button 
               onClick={() => handleMobileNavigation('contact')} 
-              className={`block w-full text-left py-2 hover:text-sky transition-colors font-medium ${
-                isScrolled ? 'text-gray-700' : 'text-white/90'
-              }`}
+              className="block w-full text-left py-2 hover:text-sky transition-colors font-medium text-white/90"
             >
               Contact
             </button>
