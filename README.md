@@ -10,7 +10,7 @@
 
 This is the official website of **Myristika Sustainable Solutions**, a modern organization focused on delivering impactful solutions. The site has been built to establish and represent their digital presence in a professional, accessible, and performance-driven manner.
 
-🔗 **Live Website**: [https://myristika.netlify.app/](https://myristika.netlify.app/)
+🔗 **Live Website**: https://myristika.com/
 
 ---
 
