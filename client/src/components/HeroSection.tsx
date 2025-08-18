@@ -65,14 +65,14 @@ export default function HeroSection() {
       {/* Hero Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <div className="animate-fade-in-up mb-8">
-          <div className="bg-white/15 backdrop-blur-md rounded-2xl p-6 mx-auto inline-block border border-white/10 shadow-lg">
+          <div className="bg-black/25 backdrop-blur-lg rounded-2xl p-6 mx-auto inline-block border border-white/15 shadow-xl">
             <img 
               src="/images/myristika-logo.png" 
               alt="Myristika Sustainable Solutions" 
               className="mx-auto h-28 sm:h-36 md:h-44 lg:h-48 w-auto hover:scale-105 transition-transform duration-500"
               style={{ 
                 imageRendering: 'crisp-edges',
-                filter: 'brightness(0) invert(1) contrast(1.3) saturate(1.2) drop-shadow(0 2px 8px rgba(0,0,0,0.3))'
+                filter: 'brightness(0) invert(1) contrast(1.4) saturate(1.2) drop-shadow(0 3px 12px rgba(0,0,0,0.4)) drop-shadow(0 0 20px rgba(255,255,255,0.1))'
               }}
             />
           </div>
