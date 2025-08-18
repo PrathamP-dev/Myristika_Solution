@@ -66,13 +66,13 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-sky transition-colors">
-                <i className="fab fa-twitter text-xl"></i>
+              <a href="https://x.com/MyristikaS54480" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-sky transition-colors">
+                <i className="fab fa-x-twitter text-xl"></i>
               </a>
               <a href="https://www.linkedin.com/company/myristika-sustainable-solutions/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-sky transition-colors">
                 <i className="fab fa-linkedin text-xl"></i>
               </a>
-              <a href="#" className="text-gray-300 hover:text-sky transition-colors">
+              <a href="https://www.instagram.com/myristikasustainablesolutions/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-sky transition-colors">
                 <i className="fab fa-instagram text-xl"></i>
               </a>
             </div>

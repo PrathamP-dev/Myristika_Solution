@@ -75,13 +75,13 @@ export default function HeroSection() {
           className="flex justify-center space-x-6 mt-12 animate-fade-in-up" 
           style={{ animationDelay: '0.8s' }}
         >
-          <a href="#" className="text-white hover:text-sky transition-colors transform hover:scale-110">
-            <i className="fab fa-twitter text-2xl"></i>
+          <a href="https://x.com/MyristikaS54480" target="_blank" rel="noopener noreferrer" className="text-white hover:text-sky transition-colors transform hover:scale-110">
+            <i className="fab fa-x-twitter text-2xl"></i>
           </a>
           <a href="https://www.linkedin.com/company/myristika-sustainable-solutions/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-sky transition-colors transform hover:scale-110">
             <i className="fab fa-linkedin text-2xl"></i>
           </a>
-          <a href="#" className="text-white hover:text-sky transition-colors transform hover:scale-110">
+          <a href="https://www.instagram.com/myristikasustainablesolutions/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-sky transition-colors transform hover:scale-110">
             <i className="fab fa-instagram text-2xl"></i>
           </a>
         </div>

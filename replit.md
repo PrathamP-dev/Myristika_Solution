@@ -8,10 +8,11 @@ Myristika Solution is a modern full-stack web application focused on environment
 
 Preferred communication style: Simple, everyday language.
 
-## Recent Changes (August 17, 2025)
+## Recent Changes (August 18, 2025)
 
 - **Migration Completed**: Successfully migrated from Replit Agent to Replit environment with full security compliance
 - **Team Section Update**: Removed all designations/roles from team member profiles in the Our Team section for cleaner presentation
+- **Social Media Integration**: Added authentic social media links for X (Twitter) and Instagram with updated X logo branding
 - **Latest Content Update**: Updated all major sections with comprehensive new content following user requirements:
   - **Who We Are**: Enhanced mission statement emphasizing natural resources beyond forests, updated journey narrative with team's diverse sector experience
   - **What We Do**: Complete rewrite focusing on proven legacy, core expertise areas (Strategic Policy, Data-Driven Solutions, Community-Centric Engagement, Biodiversity Conservation, Climate Resilience, Strategic Communications), and comprehensive technology suite
