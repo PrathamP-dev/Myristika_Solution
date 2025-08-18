@@ -65,7 +65,7 @@ export default function HeroSection() {
       {/* Hero Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <div className="animate-fade-in-up mb-8">
-          <div className="navbar-blur-dark rounded-xl p-4 mx-auto inline-block">
+          <div className="navbar-blur rounded-xl p-4 mx-auto inline-block">
             <img 
               src="/images/myristika-logo.png" 
               alt="Myristika Sustainable Solutions" 
