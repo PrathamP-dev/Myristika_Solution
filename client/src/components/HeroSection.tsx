@@ -13,18 +13,12 @@ export default function HeroSection() {
         <img 
           src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080" 
           alt="Dense forest with filtered sunlight" 
-          className={`absolute w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-0' : 'opacity-100'}`}
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-0' : 'opacity-100'}`}
           style={{ 
             filter: 'brightness(1.3) contrast(1.1) saturate(1.2)',
             objectPosition: 'center center',
             imageRendering: 'crisp-edges' as const,
-            transform: 'scale(1.2)',
-            left: '50%',
-            top: '50%',
-            marginLeft: '-60%',
-            marginTop: '-60%',
-            width: '120%',
-            height: '120%'
+            transform: 'scale(1.1)'
           }}
         />
         
@@ -36,20 +30,14 @@ export default function HeroSection() {
           loop 
           playsInline
           preload="auto"
-          className={`absolute w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-100' : 'opacity-0'}`}
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-100' : 'opacity-0'}`}
           style={{ 
             filter: 'brightness(1.4) contrast(1.2) saturate(1.2)',
-            transform: 'scale(1.2)',
+            transform: 'scale(1.1)',
             backfaceVisibility: 'hidden',
             willChange: 'transform',
             objectPosition: 'center center',
-            imageRendering: 'crisp-edges' as const,
-            left: '50%',
-            top: '50%',
-            marginLeft: '-60%',
-            marginTop: '-60%',
-            width: '120%',
-            height: '120%'
+            imageRendering: 'crisp-edges' as const
           }}
         >
           <source src="/forest-video.mp4" type="video/mp4" />
