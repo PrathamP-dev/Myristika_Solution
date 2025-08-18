@@ -1,6 +1,5 @@
 import { useSmoothScroll } from "../hooks/use-smooth-scroll";
 import { useLazyVideo } from "../hooks/use-lazy-video";
-import VideoEnhancer from "./VideoEnhancer";
 
 export default function HeroSection() {
   const { scrollToSection } = useSmoothScroll();
@@ -40,12 +39,17 @@ export default function HeroSection() {
             imageRendering: 'crisp-edges'
           }}
         >
-          <source src="/attached_assets/856478-uhd_4096_2160_25fps_1753543958144.mp4" type="video/mp4" />
-          <source src="/attached_assets/Video_1753803745358.mp4" type="video/mp4" />
+          <source src="/forest-video.mp4" type="video/mp4" />
         </video>
         
-        {/* Dynamic video enhancement for initial dark seconds */}
-        <VideoEnhancer videoRef={videoRef} canPlay={canPlay} />
+        {/* Additional brightness overlay for better visibility */}
+        <div 
+          className={`absolute inset-0 pointer-events-none transition-opacity duration-1000 ${canPlay ? 'opacity-100' : 'opacity-0'}`}
+          style={{
+            background: 'radial-gradient(circle at center, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.03) 40%, transparent 70%)',
+            mixBlendMode: 'screen'
+          }}
+        ></div>
         
         {/* Loading indicator */}
         {isLoading && (
