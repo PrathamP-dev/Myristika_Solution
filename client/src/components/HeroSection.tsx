@@ -15,11 +15,15 @@ export default function HeroSection() {
           alt="Dense forest with filtered sunlight" 
           className={`w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-0' : 'opacity-100'}`}
           style={{ 
-            filter: 'brightness(1.3) contrast(1.1) saturate(1.2)',
+            filter: 'brightness(1.4) contrast(1.3) saturate(1.3)',
             objectPosition: 'center center',
-            imageRendering: 'crisp-edges',
-            minWidth: '100%',
-            minHeight: '100%'
+            imageRendering: 'crisp-edges' as const,
+            objectFit: 'cover',
+            width: '120%',
+            height: '120%',
+            left: '-10%',
+            top: '-10%',
+            position: 'absolute'
           }}
         />
         
@@ -31,28 +35,42 @@ export default function HeroSection() {
           loop 
           playsInline
           preload="auto"
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-100' : 'opacity-0'}`}
+          className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ${canPlay ? 'opacity-100' : 'opacity-0'}`}
           style={{ 
-            filter: 'brightness(1.4) contrast(1.2) saturate(1.2)',
-            transform: 'scale(1.05)',
+            filter: 'brightness(1.6) contrast(1.5) saturate(1.4)',
+            transform: 'scale(1.15)',
             backfaceVisibility: 'hidden',
             willChange: 'transform',
+            objectFit: 'cover',
             objectPosition: 'center center',
-            imageRendering: 'crisp-edges',
-            minWidth: '100%',
-            minHeight: '100%'
+            imageRendering: 'crisp-edges' as const,
+            width: '120%',
+            height: '120%',
+            left: '-10%',
+            top: '-10%',
+            position: 'absolute'
           }}
         >
           <source src="/forest-video.mp4" type="video/mp4" />
         </video>
         
-        {/* Initial seconds brightness enhancement */}
+        {/* Enhanced clarity overlay for initial seconds */}
         <div 
           className={`absolute inset-0 pointer-events-none transition-opacity duration-1000 ${canPlay ? 'opacity-100' : 'opacity-0'}`}
           style={{
-            background: 'radial-gradient(ellipse at center, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.08) 30%, rgba(255,255,255,0.04) 60%, transparent 80%)',
+            background: 'radial-gradient(ellipse at center, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.12) 30%, rgba(255,255,255,0.08) 60%, transparent 80%)',
             mixBlendMode: 'screen',
             animation: 'initialBrightness 8s ease-out forwards'
+          }}
+        ></div>
+        
+        {/* Additional sharpness enhancement */}
+        <div 
+          className={`absolute inset-0 pointer-events-none transition-opacity duration-1000 ${canPlay ? 'opacity-100' : 'opacity-0'}`}
+          style={{
+            background: 'linear-gradient(45deg, rgba(255,255,255,0.05) 0%, transparent 25%, rgba(255,255,255,0.03) 50%, transparent 75%, rgba(255,255,255,0.05) 100%)',
+            mixBlendMode: 'overlay',
+            animation: 'clarityBoost 6s ease-out forwards'
           }}
         ></div>
         

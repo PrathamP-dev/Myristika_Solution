@@ -71,39 +71,70 @@
 }
 
 @layer components {
-  /* Initial video brightness animation - targets first 8 seconds */
+  /* Enhanced video brightness animation - targets first 8 seconds */
   @keyframes initialBrightness {
     0% {
       opacity: 1;
       background: radial-gradient(ellipse at center, 
-        rgba(255,255,255,0.15) 0%, 
-        rgba(255,255,255,0.10) 30%, 
-        rgba(255,255,255,0.06) 60%, 
+        rgba(255,255,255,0.20) 0%, 
+        rgba(255,255,255,0.15) 30%, 
+        rgba(255,255,255,0.10) 60%, 
         transparent 80%);
     }
-    40% {
+    30% {
       opacity: 1;
       background: radial-gradient(ellipse at center, 
-        rgba(255,255,255,0.12) 0%, 
-        rgba(255,255,255,0.08) 30%, 
+        rgba(255,255,255,0.18) 0%, 
+        rgba(255,255,255,0.12) 30%, 
+        rgba(255,255,255,0.08) 60%, 
+        transparent 80%);
+    }
+    70% {
+      opacity: 0.7;
+      background: radial-gradient(ellipse at center, 
+        rgba(255,255,255,0.10) 0%, 
+        rgba(255,255,255,0.06) 30%, 
         rgba(255,255,255,0.04) 60%, 
         transparent 80%);
     }
-    80% {
-      opacity: 0.6;
+    100% {
+      opacity: 0.4;
       background: radial-gradient(ellipse at center, 
         rgba(255,255,255,0.06) 0%, 
         rgba(255,255,255,0.03) 30%, 
         rgba(255,255,255,0.02) 60%, 
         transparent 80%);
     }
+  }
+
+  /* Clarity enhancement animation */
+  @keyframes clarityBoost {
+    0% {
+      opacity: 0.8;
+      background: linear-gradient(45deg, 
+        rgba(255,255,255,0.08) 0%, 
+        transparent 25%, 
+        rgba(255,255,255,0.06) 50%, 
+        transparent 75%, 
+        rgba(255,255,255,0.08) 100%);
+    }
+    50% {
+      opacity: 0.6;
+      background: linear-gradient(45deg, 
+        rgba(255,255,255,0.05) 0%, 
+        transparent 25%, 
+        rgba(255,255,255,0.03) 50%, 
+        transparent 75%, 
+        rgba(255,255,255,0.05) 100%);
+    }
     100% {
-      opacity: 0.3;
-      background: radial-gradient(ellipse at center, 
-        rgba(255,255,255,0.03) 0%, 
-        rgba(255,255,255,0.015) 30%, 
-        rgba(255,255,255,0.01) 60%, 
-        transparent 80%);
+      opacity: 0.2;
+      background: linear-gradient(45deg, 
+        rgba(255,255,255,0.02) 0%, 
+        transparent 25%, 
+        rgba(255,255,255,0.01) 50%, 
+        transparent 75%, 
+        rgba(255,255,255,0.02) 100%);
     }
   }
 
