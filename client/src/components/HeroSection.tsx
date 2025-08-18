@@ -15,9 +15,11 @@ export default function HeroSection() {
           alt="Dense forest with filtered sunlight" 
           className={`w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-0' : 'opacity-100'}`}
           style={{ 
-            filter: 'brightness(1.4) contrast(1.2) saturate(1.3)',
+            filter: 'brightness(1.3) contrast(1.1) saturate(1.2)',
             objectPosition: 'center center',
-            imageRendering: 'crisp-edges'
+            imageRendering: 'crisp-edges',
+            minWidth: '100%',
+            minHeight: '100%'
           }}
         />
         
@@ -31,23 +33,26 @@ export default function HeroSection() {
           preload="auto"
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-100' : 'opacity-0'}`}
           style={{ 
-            filter: 'brightness(1.5) contrast(1.3) saturate(1.3) blur(0px) hue-rotate(0deg)',
-            transform: 'scale(1.01)',
+            filter: 'brightness(1.4) contrast(1.2) saturate(1.2)',
+            transform: 'scale(1.05)',
             backfaceVisibility: 'hidden',
             willChange: 'transform',
             objectPosition: 'center center',
-            imageRendering: 'crisp-edges'
+            imageRendering: 'crisp-edges',
+            minWidth: '100%',
+            minHeight: '100%'
           }}
         >
           <source src="/forest-video.mp4" type="video/mp4" />
         </video>
         
-        {/* Additional brightness overlay for better visibility */}
+        {/* Initial seconds brightness enhancement */}
         <div 
           className={`absolute inset-0 pointer-events-none transition-opacity duration-1000 ${canPlay ? 'opacity-100' : 'opacity-0'}`}
           style={{
-            background: 'radial-gradient(circle at center, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.03) 40%, transparent 70%)',
-            mixBlendMode: 'screen'
+            background: 'radial-gradient(ellipse at center, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.08) 30%, rgba(255,255,255,0.04) 60%, transparent 80%)',
+            mixBlendMode: 'screen',
+            animation: 'initialBrightness 8s ease-out forwards'
           }}
         ></div>
         
