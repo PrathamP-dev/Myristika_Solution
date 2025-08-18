@@ -1,5 +1,6 @@
 import { useSmoothScroll } from "../hooks/use-smooth-scroll";
 import { useLazyVideo } from "../hooks/use-lazy-video";
+import VideoEnhancer from "./VideoEnhancer";
 
 export default function HeroSection() {
   const { scrollToSection } = useSmoothScroll();
@@ -15,8 +16,9 @@ export default function HeroSection() {
           alt="Dense forest with filtered sunlight" 
           className={`w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-0' : 'opacity-100'}`}
           style={{ 
-            filter: 'brightness(1.2) contrast(1.1) saturate(1.2)',
-            objectPosition: 'center center'
+            filter: 'brightness(1.4) contrast(1.2) saturate(1.3)',
+            objectPosition: 'center center',
+            imageRendering: 'crisp-edges'
           }}
         />
         
@@ -30,16 +32,20 @@ export default function HeroSection() {
           preload="auto"
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-100' : 'opacity-0'}`}
           style={{ 
-            filter: 'brightness(1.3) contrast(1.1) saturate(1.2)',
-            transform: 'scale(1.02)',
+            filter: 'brightness(1.5) contrast(1.3) saturate(1.3) blur(0px) hue-rotate(0deg)',
+            transform: 'scale(1.01)',
             backfaceVisibility: 'hidden',
             willChange: 'transform',
-            objectPosition: 'center center'
+            objectPosition: 'center center',
+            imageRendering: 'crisp-edges'
           }}
         >
           <source src="/attached_assets/856478-uhd_4096_2160_25fps_1753543958144.mp4" type="video/mp4" />
           <source src="/attached_assets/Video_1753803745358.mp4" type="video/mp4" />
         </video>
+        
+        {/* Dynamic video enhancement for initial dark seconds */}
+        <VideoEnhancer videoRef={videoRef} canPlay={canPlay} />
         
         {/* Loading indicator */}
         {isLoading && (
@@ -48,7 +54,7 @@ export default function HeroSection() {
           </div>
         )}
         
-        <div className="absolute inset-0 bg-gradient-to-br from-black/30 via-black/10 to-black/35"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-black/20 via-transparent to-black/25"></div>
       </div>
       
       {/* Hero Content */}
