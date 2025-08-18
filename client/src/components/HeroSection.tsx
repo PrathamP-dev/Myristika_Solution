@@ -65,25 +65,16 @@ export default function HeroSection() {
       {/* Hero Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <div className="animate-fade-in-up mb-8">
-          <div className="relative mx-auto inline-block">
-            {/* Enhanced glass background with stronger blur */}
-            <div className="absolute inset-0 bg-black/40 backdrop-blur-xl rounded-2xl border border-white/20 shadow-2xl"></div>
-            
-            {/* Additional contrast layer */}
-            <div className="absolute inset-0 bg-gradient-to-b from-white/15 via-white/5 to-black/20 rounded-2xl"></div>
-            
-            {/* Logo container */}
-            <div className="relative p-8 md:p-10">
-              <img 
-                src="/images/myristika-logo.png" 
-                alt="Myristika Sustainable Solutions" 
-                className="mx-auto h-28 sm:h-36 md:h-44 lg:h-48 w-auto hover:scale-105 transition-transform duration-500"
-                style={{ 
-                  imageRendering: 'crisp-edges',
-                  filter: 'brightness(0) invert(1) contrast(1.5) saturate(1.3) drop-shadow(0 4px 20px rgba(0,0,0,0.5)) drop-shadow(0 0 40px rgba(255,255,255,0.2))'
-                }}
-              />
-            </div>
+          <div className="bg-white/15 backdrop-blur-md rounded-2xl p-6 mx-auto inline-block border border-white/10 shadow-lg">
+            <img 
+              src="/images/myristika-logo.png" 
+              alt="Myristika Sustainable Solutions" 
+              className="mx-auto h-28 sm:h-36 md:h-44 lg:h-48 w-auto hover:scale-105 transition-transform duration-500"
+              style={{ 
+                imageRendering: 'crisp-edges',
+                filter: 'brightness(0) invert(1) contrast(1.3) saturate(1.2) drop-shadow(0 2px 8px rgba(0,0,0,0.3))'
+              }}
+            />
           </div>
         </div>
 
