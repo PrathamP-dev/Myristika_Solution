@@ -23,12 +23,12 @@ export const useLazyVideo = () => {
       setCanPlay(false);
     };
 
-    // Start loading after a brief delay to prioritize critical content
+    // Start loading immediately for hero video
     const loadTimer = setTimeout(() => {
       if (video.readyState === 0) {
         video.load();
       }
-    }, 300);
+    }, 100);
 
     video.addEventListener('canplay', handleCanPlay);
     video.addEventListener('loadstart', handleLoadStart);

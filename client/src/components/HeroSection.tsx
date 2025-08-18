@@ -14,7 +14,10 @@ export default function HeroSection() {
           src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080" 
           alt="Dense forest with filtered sunlight" 
           className={`w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-0' : 'opacity-100'}`}
-          style={{ filter: 'brightness(0.9)' }}
+          style={{ 
+            filter: 'brightness(1.2) contrast(1.1) saturate(1.2)',
+            objectPosition: 'center center'
+          }}
         />
         
         {/* Video loads in background and fades in when ready */}
@@ -24,15 +27,18 @@ export default function HeroSection() {
           muted 
           loop 
           playsInline
-          preload="none"
+          preload="auto"
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${canPlay ? 'opacity-100' : 'opacity-0'}`}
           style={{ 
-            filter: 'brightness(0.9)',
-            transform: 'scale(1.05)',
-            backfaceVisibility: 'hidden'
+            filter: 'brightness(1.3) contrast(1.1) saturate(1.2)',
+            transform: 'scale(1.02)',
+            backfaceVisibility: 'hidden',
+            willChange: 'transform',
+            objectPosition: 'center center'
           }}
         >
-          <source src="/forest-video.mp4" type="video/mp4" />
+          <source src="/attached_assets/856478-uhd_4096_2160_25fps_1753543958144.mp4" type="video/mp4" />
+          <source src="/attached_assets/Video_1753803745358.mp4" type="video/mp4" />
         </video>
         
         {/* Loading indicator */}
@@ -42,7 +48,7 @@ export default function HeroSection() {
           </div>
         )}
         
-        <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/20 to-black/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-black/30 via-black/10 to-black/35"></div>
       </div>
       
       {/* Hero Content */}
