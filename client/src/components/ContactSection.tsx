@@ -1,6 +1,4 @@
 import { useState } from "react";
-import { useMutation } from "@tanstack/react-query";
-import { apiRequest } from "../lib/queryClient";
 import { useToast } from "../hooks/use-toast";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
@@ -24,29 +22,29 @@ export default function ContactSection() {
 
   const { toast } = useToast();
 
-  const contactMutation = useMutation({
-    mutationFn: async (data: ContactFormData) => {
-      return await apiRequest("POST", "/api/contact", data);
-    },
-    onSuccess: () => {
-      toast({
-        title: "Message sent successfully!",
-        description: "Thank you for your message. We'll get back to you soon.",
-      });
-      setFormData({ name: "", email: "", organization: "", message: "" });
-    },
-    onError: (error: any) => {
-      toast({
-        title: "Error sending message",
-        description: error.message || "Please try again later.",
-        variant: "destructive",
-      });
-    },
-  });
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    contactMutation.mutate(formData);
+    
+    // Create mailto URL with form data
+    const subject = encodeURIComponent(`Message from ${formData.name}${formData.organization ? ` - ${formData.organization}` : ''}`);
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\n` +
+      `Email: ${formData.email}\n` +
+      `Organization: ${formData.organization}\n\n` +
+      `Message:\n${formData.message}`
+    );
+    
+    const mailtoUrl = `mailto:contact@myristika.com?subject=${subject}&body=${body}`;
+    
+    // Open email client
+    window.location.href = mailtoUrl;
+    
+    // Clear form and show success message
+    setFormData({ name: "", email: "", organization: "", message: "" });
+    toast({
+      title: "Opening your email client...",
+      description: "Your message has been prepared. Send it from your email app.",
+    });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -124,10 +122,9 @@ export default function ContactSection() {
               
               <Button
                 type="submit"
-                disabled={contactMutation.isPending}
                 className="w-full bg-sky hover:bg-blue-500 text-white py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
               >
-                {contactMutation.isPending ? "Sending..." : "Send Message"}
+                Send Message
               </Button>
             </form>
           </div>
