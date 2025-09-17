@@ -45,7 +45,7 @@ export default function TeamSection() {
     {
       name: "Prashant Gamaliel",
       image: "/images/prashant-gamaliel.png",
-      description: "20+ years across corporate and international development sectors. Led key functions for organizations such as Tetra Tech ARD, FHI360, and World Vision, specializing in financial systems design, regulatory compliance, and internal controls.",
+      description: "Prashant Gamaliel is a senior finance and operations specialist with over twenty years of experience across corporate and international development sectors. He has led key functions for organizations such as Tetra Tech ARD, FHI360, and World Vision, specializing in financial systems design, regulatory compliance, internal controls, and project management. Prashant has overseen multi-country, multi-donor projects, developed operational manuals, and built capacity for sub-awardees. With an MBA in Operations Management, he is recognized for his ability to ensure accountability, efficiency, and strategic oversight in complex development environments.",
       hoverInfo: "Expert in multi-country, multi-donor project oversight, developed operational manuals, and built capacity for financial management systems"
     }
   ];
