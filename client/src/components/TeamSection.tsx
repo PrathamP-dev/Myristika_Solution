@@ -79,7 +79,7 @@ export default function TeamSection() {
               </div>
               <div className="p-4">
                 <h3 className="text-lg font-bold text-forest mb-3 truncate">{member.name}</h3>
-                <p className="text-gray-600 text-xs leading-relaxed line-clamp-3">{member.description}</p>
+                <p className="text-gray-600 text-xs leading-relaxed text-justify">{member.description}</p>
               </div>
             </div>
           ))}
