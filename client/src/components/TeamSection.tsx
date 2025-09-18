@@ -11,23 +11,52 @@ export default function TeamSection() {
   };
 
   const getFirstSentence = (text: string) => {
-    // Use regex to find the first sentence, avoiding common abbreviations
-    const match = text.match(/^[^.!?]*(?:\b(?:Dr|Mr|Mrs|Ms|Prof|K\.P|Ph\.D|MBA|M\.A|B\.A)\.[^.!?]*)*[.!?]/);
-    if (match) {
-      const firstSentence = match[0];
-      // If first sentence is too short (less than 80 characters), try to get more content
-      if (firstSentence.length < 80) {
-        // Look for the second sentence
-        const remainingText = text.substring(firstSentence.length).trim();
-        const secondMatch = remainingText.match(/^[^.!?]*(?:\b(?:Dr|Mr|Mrs|Ms|Prof|K\.P|Ph\.D|MBA|M\.A|B\.A)\.[^.!?]*)*[.!?]/);
-        if (secondMatch) {
-          return firstSentence + ' ' + secondMatch[0];
-        }
+    // Find the first real sentence end by looking for periods followed by space and capital letter
+    // or end of string, while skipping abbreviations
+    let pos = 0;
+    let foundEnd = false;
+    
+    while (pos < text.length && !foundEnd) {
+      const nextPeriod = text.indexOf('.', pos);
+      if (nextPeriod === -1) break;
+      
+      // Check if this period is likely an abbreviation
+      const charBefore = nextPeriod > 0 ? text[nextPeriod - 1] : '';
+      const charAfter = nextPeriod < text.length - 1 ? text[nextPeriod + 1] : '';
+      const nextChar = nextPeriod < text.length - 2 ? text[nextPeriod + 2] : '';
+      
+      // If period is followed by space and capital letter, or end of text, it's likely sentence end
+      // Unless it's a common abbreviation pattern
+      const isAbbreviation = (
+        (charBefore.match(/[A-Z]/) && charAfter === ' ' && nextChar?.match(/[A-Z]/)) || // X. Y pattern
+        text.substring(Math.max(0, nextPeriod - 3), nextPeriod).includes('Dr') ||
+        text.substring(Math.max(0, nextPeriod - 5), nextPeriod).includes('Ph.D') ||
+        text.substring(Math.max(0, nextPeriod - 3), nextPeriod).includes('MBA')
+      );
+      
+      if (!isAbbreviation && (charAfter === ' ' && nextChar?.match(/[A-Z]/) || nextPeriod === text.length - 1)) {
+        foundEnd = true;
+        pos = nextPeriod + 1;
+      } else {
+        pos = nextPeriod + 1;
       }
-      return firstSentence;
     }
-    // Fallback: if no sentence boundary found, return first 120 characters with ellipsis
-    return text.length > 120 ? text.substring(0, 120) + '...' : text;
+    
+    let firstSentence = foundEnd ? text.substring(0, pos) : text.split(/[.!?]/)[0];
+    if (firstSentence && !firstSentence.match(/[.!?]$/)) {
+      firstSentence += '.';
+    }
+    
+    // If first sentence is too short (less than 80 characters), try to get more content
+    if (firstSentence.length < 80) {
+      const remainingText = text.substring(firstSentence.length).trim();
+      const secondMatch = remainingText.match(/^[^.!?]*?[.!?]/);
+      if (secondMatch) {
+        return firstSentence + ' ' + secondMatch[0];
+      }
+    }
+    
+    return firstSentence;
   };
 
   const getRemainingText = (text: string) => {
