@@ -14,10 +14,20 @@ export default function TeamSection() {
     // Use regex to find the first sentence, avoiding common abbreviations
     const match = text.match(/^[^.!?]*(?:\b(?:Dr|Mr|Mrs|Ms|Prof|K\.P|Ph\.D|MBA|M\.A|B\.A)\.[^.!?]*)*[.!?]/);
     if (match) {
-      return match[0];
+      const firstSentence = match[0];
+      // If first sentence is too short (less than 80 characters), try to get more content
+      if (firstSentence.length < 80) {
+        // Look for the second sentence
+        const remainingText = text.substring(firstSentence.length).trim();
+        const secondMatch = remainingText.match(/^[^.!?]*(?:\b(?:Dr|Mr|Mrs|Ms|Prof|K\.P|Ph\.D|MBA|M\.A|B\.A)\.[^.!?]*)*[.!?]/);
+        if (secondMatch) {
+          return firstSentence + ' ' + secondMatch[0];
+        }
+      }
+      return firstSentence;
     }
-    // Fallback: if no sentence boundary found, return first 100 characters with ellipsis
-    return text.length > 100 ? text.substring(0, 100) + '...' : text;
+    // Fallback: if no sentence boundary found, return first 120 characters with ellipsis
+    return text.length > 120 ? text.substring(0, 120) + '...' : text;
   };
 
   const getRemainingText = (text: string) => {
