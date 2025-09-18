@@ -40,7 +40,7 @@ export default function AboutSection() {
           </div>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8 mt-16">
+        <div className="grid md:grid-cols-2 gap-8 mt-16">
           <div className="text-center scroll-reveal">
             <div className="w-16 h-16 bg-gradient-to-br from-forest to-sky rounded-xl flex items-center justify-center mb-4 mx-auto">
               <i className="fas fa-users text-white text-2xl"></i>
@@ -57,13 +57,6 @@ export default function AboutSection() {
             <p className="text-gray-600">Field-tested solutions co-developed with end users and local communities</p>
           </div>
           
-          <div className="text-center scroll-reveal">
-            <div className="w-16 h-16 bg-gradient-to-br from-platinum to-forest rounded-xl flex items-center justify-center mb-4 mx-auto">
-              <i className="fas fa-leaf text-white text-2xl"></i>
-            </div>
-            <h3 className="text-xl font-bold text-forest mb-2">Proven Legacy</h3>
-            <p className="text-gray-600">Built on the success of USAID-supported Forest-PLUS programs</p>
-          </div>
         </div>
       </div>
     </section>
