@@ -1,4 +1,31 @@
+import { useState } from 'react';
+
 export default function TeamSection() {
+  const [expandedMembers, setExpandedMembers] = useState<{ [key: string]: boolean }>({});
+
+  const toggleExpanded = (memberName: string) => {
+    setExpandedMembers(prev => ({
+      ...prev,
+      [memberName]: !prev[memberName]
+    }));
+  };
+
+  const getFirstSentence = (text: string) => {
+    // Use regex to find the first sentence, avoiding common abbreviations
+    const match = text.match(/^[^.!?]*(?:\b(?:Dr|Mr|Mrs|Ms|Prof|K\.P|Ph\.D|MBA|M\.A|B\.A)\.[^.!?]*)*[.!?]/);
+    if (match) {
+      return match[0];
+    }
+    // Fallback: if no sentence boundary found, return first 100 characters with ellipsis
+    return text.length > 100 ? text.substring(0, 100) + '...' : text;
+  };
+
+  const getRemainingText = (text: string) => {
+    const firstSentence = getFirstSentence(text);
+    const remaining = text.substring(firstSentence.length).trim();
+    return remaining;
+  };
+
   const teamMembers = [
     {
       name: "Ashish Raj",
@@ -79,7 +106,25 @@ export default function TeamSection() {
               </div>
               <div className="p-4">
                 <h3 className="text-lg font-bold text-forest mb-3 truncate">{member.name}</h3>
-                <p className="text-gray-600 text-xs leading-relaxed text-justify">{member.description}</p>
+                <div className="text-gray-600 text-xs leading-relaxed text-justify">
+                  <p id={`description-${member.name.replace(/\s+/g, '-').toLowerCase()}`}>
+                    {getFirstSentence(member.description)}
+                    {expandedMembers[member.name] && (
+                      <span> {getRemainingText(member.description)}</span>
+                    )}
+                  </p>
+                  {getRemainingText(member.description) && (
+                    <button
+                      onClick={() => toggleExpanded(member.name)}
+                      className="mt-2 text-sky hover:text-sky-600 font-medium text-xs transition-colors duration-200"
+                      aria-expanded={expandedMembers[member.name] || false}
+                      aria-controls={`description-${member.name.replace(/\s+/g, '-').toLowerCase()}`}
+                      data-testid={`button-${expandedMembers[member.name] ? 'read-less' : 'read-more'}-${member.name.replace(/\s+/g, '-').toLowerCase()}`}
+                    >
+                      {expandedMembers[member.name] ? 'Read less' : 'Read more'}
+                    </button>
+                  )}
+                </div>
               </div>
             </div>
           ))}
